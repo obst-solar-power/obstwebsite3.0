@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About OBST Solar Panel</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <%- include("./_partials/css.ejs") %>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <style>
+      .check li {
+        background: url("./assets/check.svg") no-repeat 0 0;
+        /* <-- change `left` & `top` too for extra control */
+        padding: 3px 0px 3px 30px;
+        list-style: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./about.html" }) %>
+    <section class="section">
+      <div class="grid grid-cols-1 md:grid-cols-2 items-center max-md:space-y-10">
+        <div class="cols-span-1 lg:px-10">
+          <div class="title mb-2">About us</div>
+          <p class="text-lg">
+            O.B.S.T Solar Power Company is a leading provider of renewable energy solutions, specializing in solar power systems, with a strong commitment to
+            sustainability and environmental stewardship.
+          </p>
+          <ul class="check mt-5">
+            <li>Sustainable Energy Solutions</li>
+            <li>Reduced Carbon Footprint</li>
+            <li>Environmental Conservation</li>
+            <li>Community Engagement</li>
+          </ul>
+        </div>
+        <div class="col-span-1 max-md:h-[300px]">
+          <img src="./assets/about/panel-images.png" class="max-md:h-full max-md:mx-auto" alt="" srcset="" />
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-primary">
+      <section class="section text-white text-center">
+        <div class="text-center text-white mx-auto max-w-[800px]">
+          <div id="carousel-example" class="relative w-full">
+            <!-- Carousel wrapper -->
+            <div class="relative h-[60vh] sm:h-72 overflow-hidden rounded-lg md:h-72 flex items-center">
+              <!-- Item 1 -->
+              <div id="carousel-item-1" class="hidden duration-700 ease-in-out">
+                <div class="flex flex-col justify-center h-full">
+                  <h1 class="title mb-10">Our Vision</h1>
+                  <p class="text-lg">
+                    Our vision is to be a global leader in solar power technology, revolutionizing the energy industry and enabling a sustainable future for
+                    generations to come. By developing innovative and efficient solar solutions, we aim to empower individuals and businesses to embrace
+                    renewable energy and achieve their energy independence.
+                  </p>
+                  <button id="carousel-indicator-1" type="button" class="bg-transparent" aria-current="true" aria-label="Slide 1">
+                    <svg width="32" height="32" class="bg-transparent mx-auto mt-5 fill-[#CCCCD8] cursor-pointer hover:fill-[#5757dd]" viewBox="0 0 32 32">
+                      <path d="M16 8L14.57 9.393L20.15 15H8V17H20.15L14.57 22.573L16 24L24 16L16 8Z" />
+                      <path
+                        d="M16 30C13.2311 30 10.5243 29.1789 8.22202 27.6406C5.91973 26.1022 4.12532 23.9157 3.06569 21.3576C2.00607 18.7994 1.72882 15.9845 2.26901 13.2687C2.80921 10.553 4.14258 8.05845 6.10051 6.10051C8.05845 4.14258 10.553 2.80921 13.2687 2.26901C15.9845 1.72882 18.7994 2.00607 21.3576 3.06569C23.9157 4.12532 26.1022 5.91973 27.6406 8.22202C29.1789 10.5243 30 13.2311 30 16C29.9958 19.7117 28.5194 23.2702 25.8948 25.8948C23.2702 28.5194 19.7117 29.9958 16 30ZM16 4.00001C13.6266 4.00001 11.3066 4.70379 9.33316 6.02237C7.35977 7.34095 5.8217 9.21509 4.91345 11.4078C4.0052 13.6005 3.76756 16.0133 4.23058 18.3411C4.69361 20.6689 5.83649 22.8071 7.51472 24.4853C9.19296 26.1635 11.3312 27.3064 13.6589 27.7694C15.9867 28.2325 18.3995 27.9948 20.5922 27.0866C22.7849 26.1783 24.6591 24.6402 25.9776 22.6668C27.2962 20.6935 28 18.3734 28 16C27.9963 12.8185 26.7308 9.76845 24.4812 7.51882C22.2316 5.26918 19.1815 4.00371 16 4.00001Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
+                <div class="flex flex-col justify-center h-full">
+                  <h1 class="title mb-10">Our Mission</h1>
+                  <p class="text-lg">
+                    Our mission is to accelerate the transition to a clean and renewable future by harnessing the power of the sun. We are committed to reducing
+                    carbon emissions and combating climate change by providing sustainable and environmentally friendly energy solutions.
+                  </p>
+                  <button id="carousel-indicator-2" type="button" class="bg-transparent" aria-current="true" aria-label="Slide 2">
+                    <svg
+                      width="32"
+                      height="32"
+                      type="button"
+                      data-carousel-slide-to="0"
+                      class="bg-transparent rotate-180 mx-auto mt-5 fill-[#CCCCD8] cursor-pointer hover:fill-[#5757dd]"
+                      viewBox="0 0 32 32"
+                    >
+                      <path d="M16 8L14.57 9.393L20.15 15H8V17H20.15L14.57 22.573L16 24L24 16L16 8Z" />
+                      <path
+                        d="M16 30C13.2311 30 10.5243 29.1789 8.22202 27.6406C5.91973 26.1022 4.12532 23.9157 3.06569 21.3576C2.00607 18.7994 1.72882 15.9845 2.26901 13.2687C2.80921 10.553 4.14258 8.05845 6.10051 6.10051C8.05845 4.14258 10.553 2.80921 13.2687 2.26901C15.9845 1.72882 18.7994 2.00607 21.3576 3.06569C23.9157 4.12532 26.1022 5.91973 27.6406 8.22202C29.1789 10.5243 30 13.2311 30 16C29.9958 19.7117 28.5194 23.2702 25.8948 25.8948C23.2702 28.5194 19.7117 29.9958 16 30ZM16 4.00001C13.6266 4.00001 11.3066 4.70379 9.33316 6.02237C7.35977 7.34095 5.8217 9.21509 4.91345 11.4078C4.0052 13.6005 3.76756 16.0133 4.23058 18.3411C4.69361 20.6689 5.83649 22.8071 7.51472 24.4853C9.19296 26.1635 11.3312 27.3064 13.6589 27.7694C15.9867 28.2325 18.3995 27.9948 20.5922 27.0866C22.7849 26.1783 24.6591 24.6402 25.9776 22.6668C27.2962 20.6935 28 18.3734 28 16C27.9963 12.8185 26.7308 9.76845 24.4812 7.51882C22.2316 5.26918 19.1815 4.00371 16 4.00001Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="section">
+      <div class="max-w-[800px] mx-auto">
+        O.B.S.T Solar Power Company is a trusted name in the renewable energy sector, with a proven track record in delivering sustainable and environmentally
+        friendly energy solutions. With our dedication to quality, innovation, and customer satisfaction, we are at the forefront of solar power technology,
+        empowering individuals and businesses to embrace a sustainable future.
+        <br /><br />
+        OBST Solar Power Company Plant is located in DG100 Industry Park, Gaobu Town, Dongguan City, known as the "Manufacturing Capital of China" and it’s
+        headquarters in Nigeria is at 9, QMB Builder’s mart Road,Lekki ,Lagos State. The company was established in 2009.
+        <br /><br />
+        Since its establishment, OBST has won many honors in the industry and obtained 20-30 intellectual property patents and software copyrights. It has
+        passed CE certification of the European Union, ROHS certification and many industry certifications, becoming an influential brand in the energy
+        industry.
+        <br /><br />
+        In order to better serve customers around the world, OBST Company has set up offices in Australia, Nigeria and Malaysia respectively. While expanding
+        the market, it provides timely and effective services to partners.
+        <br /><br />
+        With a team of highly skilled and experienced professionals, O.B.S.T possesses extensive knowledge and expertise in solar power systems. We offer a wide
+        range of products and services to meet the diverse energy needs of our customers. Our team of certified solar installers is dedicated to delivering
+        high-quality solar installations tailored to the specific requirements of our customers. From system design and engineering to installation and
+        maintenance, we provide a seamless and hassle-free experience.
+        <br /><br />
+        O.B.S.T is vertically integrated, with its own solar panel manufacturing facility. This enables us to source components directly from our own production
+        line, ensuring the highest standards of quality and availability. Our solar panels are engineered to provide optimal performance and withstand harsh
+        weather conditions. Inverters are an essential component of any solar power system. At O.B.S.T, we offer state-of-the-art solar inverters that optimize
+        energy conversion efficiency and maximize power output. Our inverters are reliable, robust, and future-proof, ensuring optimal performance for years to
+        come.
+        <br /><br />
+        With the rise of renewable energy, energy storage has become increasingly important. O.B.S.T offers a range of solar battery storage solutions, allowing
+        customers to store excess energy generated by their solar panels for later use. Our battery storage systems are robust, durable, and designed to provide
+        reliable energy storage solutions.
+        <br /><br />
+        O.B.S.T provides advanced solar monitoring and control systems, enabling customers to monitor their solar energy production, energy consumption, and
+        system performance in real-time. Our monitoring systems provide valuable insights and offer remote control capabilities, allowing customers to optimize
+        their energy usage and manage their solar power systems efficiently.
+        <br /><br />
+      </div>
+    </section>
+
+    <div class="bg-primary">
+      <section class="section" data-aos="counter" data-aos-id="super-duper">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-10">
+          <div class="bg-white p-5 col-span-1 w-full space-y-3 rounded-lg max-w-[300px] mx-auto">
+            <svg class="mx-auto w-10 block sm:w-14" viewBox="0 0 51 50" fill="none">
+              <path
+                d="M49.0719 4.1908H40.5611C40.3906 4.1908 40.2272 4.25851 40.1066 4.37904C39.9861 4.49957 39.9184 4.66305 39.9184 4.8335C39.9184 4.94302 39.953 5.04102 40.0005 5.13036V10.027C40.0007 10.2065 39.9655 10.3842 39.8969 10.55C39.8283 10.7159 39.7277 10.8666 39.6008 10.9934C39.4739 11.1203 39.3233 11.221 39.1574 11.2895C38.9916 11.3581 38.8139 11.3933 38.6344 11.3931H35.9858C35.8192 11.3931 35.6543 11.3603 35.5005 11.2966C35.3466 11.2329 35.2068 11.1395 35.0891 11.0217C34.9713 10.904 34.8779 10.7642 34.8142 10.6103C34.7505 10.4565 34.7177 10.2916 34.7177 10.125V5.20962C34.8026 5.10239 34.8502 4.9703 34.8531 4.8335C34.8533 4.74905 34.8368 4.66539 34.8046 4.58733C34.7723 4.50926 34.725 4.43834 34.6653 4.37862C34.6056 4.3189 34.5346 4.27157 34.4566 4.23933C34.3785 4.2071 34.2949 4.19061 34.2104 4.1908H17.0547C16.8843 4.1908 16.7208 4.25851 16.6003 4.37904C16.4798 4.49957 16.412 4.66305 16.412 4.8335C16.412 4.93294 16.4394 5.02372 16.4798 5.10874V10.0616C16.4798 10.2367 16.4453 10.41 16.3783 10.5717C16.3113 10.7334 16.2131 10.8804 16.0893 11.0042C15.9656 11.128 15.8186 11.2261 15.6569 11.2931C15.4952 11.3601 15.3218 11.3946 15.1468 11.3946H12.795C12.438 11.3946 12.0957 11.2528 11.8433 11.0004C11.5909 10.748 11.4491 10.4056 11.4491 10.0487V5.14477C11.5063 5.05086 11.5376 4.94346 11.5399 4.8335C11.54 4.74905 11.5236 4.66539 11.4913 4.58733C11.4591 4.50926 11.4118 4.43834 11.352 4.37862C11.2923 4.3189 11.2214 4.27157 11.1433 4.23933C11.0653 4.2071 10.9816 4.19061 10.8972 4.1908H1.92952C1.55075 4.19118 1.18759 4.34171 0.919626 4.60941C0.651663 4.8771 0.500763 5.24011 0.5 5.61888V48.1787C0.5 48.9684 1.14127 49.6097 1.92952 49.6097H49.0719C49.4509 49.6089 49.8142 49.4578 50.0819 49.1896C50.3496 48.9213 50.5 48.5578 50.5 48.1787V5.61888C50.4992 5.24036 50.3485 4.87756 50.0809 4.60991C49.8132 4.34226 49.4504 4.19156 49.0719 4.1908ZM49.0719 48.3243H1.92952C1.91047 48.3243 1.89161 48.3205 1.87404 48.3132C1.85646 48.3059 1.84051 48.2951 1.82711 48.2816C1.81371 48.268 1.80312 48.252 1.79597 48.2343C1.78881 48.2167 1.78522 48.1978 1.78541 48.1787V16.0823H49.2146V48.1773C49.215 48.1964 49.2116 48.2153 49.2046 48.233C49.1976 48.2507 49.1872 48.2669 49.1739 48.2806C49.1606 48.2942 49.1448 48.3051 49.1273 48.3126C49.1098 48.3201 49.091 48.3241 49.0719 48.3243Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M14.1383 9.92881C14.4928 9.92881 14.781 9.6406 14.781 9.28611V0.642707C14.781 0.558306 14.7644 0.474731 14.7321 0.396754C14.6998 0.318777 14.6525 0.247925 14.5928 0.188245C14.5331 0.128564 14.4622 0.0812224 14.3843 0.0489233C14.3063 0.0166243 14.2227 0 14.1383 0C14.0539 0 13.9703 0.0166243 13.8924 0.0489233C13.8144 0.0812224 13.7435 0.128564 13.6839 0.188245C13.6242 0.247925 13.5768 0.318777 13.5445 0.396754C13.5122 0.474731 13.4956 0.558306 13.4956 0.642707V9.28755C13.4956 9.64204 13.7838 9.92881 14.1383 9.92881ZM37.417 9.92881C37.7715 9.92881 38.0597 9.6406 38.0597 9.28611V0.642707C38.0597 0.558306 38.0431 0.474731 38.0108 0.396754C37.9785 0.318777 37.9311 0.247925 37.8714 0.188245C37.8118 0.128564 37.7409 0.0812224 37.6629 0.0489233C37.585 0.0166243 37.5014 0 37.417 0C37.3326 0 37.249 0.0166243 37.171 0.0489233C37.0931 0.0812224 37.0222 0.128564 36.9625 0.188245C36.9028 0.247925 36.8555 0.318777 36.8232 0.396754C36.7909 0.474731 36.7743 0.558306 36.7743 0.642707V9.28755C36.7743 9.64204 37.061 9.92881 37.417 9.92881Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M10.8165 25.8051C12.7728 25.8051 14.3586 24.2193 14.3586 22.263C14.3586 20.3068 12.7728 18.7209 10.8165 18.7209C8.86026 18.7209 7.27441 20.3068 7.27441 22.263C7.27441 24.2193 8.86026 25.8051 10.8165 25.8051Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M20.9962 25.8051C22.9524 25.8051 24.5383 24.2193 24.5383 22.263C24.5383 20.3068 22.9524 18.7209 20.9962 18.7209C19.04 18.7209 17.4541 20.3068 17.4541 22.263C17.4541 24.2193 19.04 25.8051 20.9962 25.8051Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M31.1744 25.8051C33.1307 25.8051 34.7165 24.2193 34.7165 22.263C34.7165 20.3068 33.1307 18.7209 31.1744 18.7209C29.2182 18.7209 27.6323 20.3068 27.6323 22.263C27.6323 24.2193 29.2182 25.8051 31.1744 25.8051Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M10.8165 35.6687C12.7728 35.6687 14.3586 34.0828 14.3586 32.1266C14.3586 30.1703 12.7728 28.5845 10.8165 28.5845C8.86026 28.5845 7.27441 30.1703 7.27441 32.1266C7.27441 34.0828 8.86026 35.6687 10.8165 35.6687Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M20.9962 35.6687C22.9524 35.6687 24.5383 34.0828 24.5383 32.1266C24.5383 30.1703 22.9524 28.5845 20.9962 28.5845C19.04 28.5845 17.4541 30.1703 17.4541 32.1266C17.4541 34.0828 19.04 35.6687 20.9962 35.6687Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M31.1744 35.6687C33.1307 35.6687 34.7165 34.0828 34.7165 32.1266C34.7165 30.1703 33.1307 28.5845 31.1744 28.5845C29.2182 28.5845 27.6323 30.1703 27.6323 32.1266C27.6323 34.0828 29.2182 35.6687 31.1744 35.6687Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M10.8165 45.5329C12.7728 45.5329 14.3586 43.9471 14.3586 41.9908C14.3586 40.0346 12.7728 38.4487 10.8165 38.4487C8.86026 38.4487 7.27441 40.0346 7.27441 41.9908C7.27441 43.9471 8.86026 45.5329 10.8165 45.5329Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M20.9962 45.5329C22.9524 45.5329 24.5383 43.9471 24.5383 41.9908C24.5383 40.0346 22.9524 38.4487 20.9962 38.4487C19.04 38.4487 17.4541 40.0346 17.4541 41.9908C17.4541 43.9471 19.04 45.5329 20.9962 45.5329Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M31.1744 45.5329C33.1307 45.5329 34.7165 43.9471 34.7165 41.9908C34.7165 40.0346 33.1307 38.4487 31.1744 38.4487C29.2182 38.4487 27.6323 40.0346 27.6323 41.9908C27.6323 43.9471 29.2182 45.5329 31.1744 45.5329Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M41.1144 25.8051C43.0706 25.8051 44.6565 24.2193 44.6565 22.263C44.6565 20.3068 43.0706 18.7209 41.1144 18.7209C39.1581 18.7209 37.5723 20.3068 37.5723 22.263C37.5723 24.2193 39.1581 25.8051 41.1144 25.8051Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M41.1144 35.6687C43.0706 35.6687 44.6565 34.0828 44.6565 32.1266C44.6565 30.1703 43.0706 28.5845 41.1144 28.5845C39.1581 28.5845 37.5723 30.1703 37.5723 32.1266C37.5723 34.0828 39.1581 35.6687 41.1144 35.6687Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M41.1144 45.5329C43.0706 45.5329 44.6565 43.9471 44.6565 41.9908C44.6565 40.0346 43.0706 38.4487 41.1144 38.4487C39.1581 38.4487 37.5723 40.0346 37.5723 41.9908C37.5723 43.9471 39.1581 45.5329 41.1144 45.5329Z"
+                fill="#FBBC04"
+              />
+            </svg>
+            <h1 class="text-4xl font-medium text-center increament-counter" data-num="12">12+</h1>
+            <p class="text-sm text-center">Years of experience</p>
+          </div>
+          <div class="bg-white p-5 col-span-1 w-full space-y-3 rounded-lg max-w-[300px] mx-auto">
+            <svg class="mx-auto w-10 block sm:w-14" viewBox="0 0 51 50" fill="none">
+              <path
+                d="M0.59039 31.6728C0.762862 32.3048 1.17622 32.844 1.74174 33.1746L6.52236 35.9529V41.4593C6.52236 42.1232 6.78606 42.7598 7.25545 43.2292C7.72484 43.6986 8.36147 43.9623 9.0253 43.9623H14.5318L17.31 48.7429C17.5284 49.1212 17.842 49.4357 18.2196 49.6553C18.5973 49.8748 19.0258 49.9917 19.4626 49.9944C19.9118 49.9942 20.3527 49.8732 20.7391 49.644L25.4946 46.8907L30.2753 49.644C30.5594 49.8105 30.8737 49.9193 31.2 49.9641C31.5263 50.009 31.8582 49.9889 32.1768 49.9052C32.4954 49.8215 32.7943 49.6758 33.0564 49.4763C33.3185 49.2768 33.5387 49.0276 33.7043 48.7429L36.4575 43.9623H41.964C42.6278 43.9623 43.2644 43.6986 43.7338 43.2292C44.2032 42.7598 44.4669 42.1232 44.4669 41.4593V35.9529L49.2475 33.1746C49.82 32.8444 50.2387 32.3012 50.4122 31.6635C50.5857 31.0258 50.4999 30.3453 50.1736 29.7706L47.3954 24.965L50.1736 20.1844C50.4999 19.6096 50.5857 18.9292 50.4122 18.2915C50.2387 17.6538 49.82 17.1105 49.2475 16.7804L44.4669 14.0271V8.52065C44.4669 7.85683 44.2032 7.2202 43.7338 6.75081C43.2644 6.28142 42.6278 6.01772 41.964 6.01772H36.4575L33.7043 1.2371C33.3678 0.666368 32.8187 0.252331 32.1775 0.0857481C31.8595 0.00031025 31.5279 -0.0215601 31.2014 0.0213895C30.875 0.0643391 30.5603 0.171265 30.2753 0.336042L25.4696 3.08928L20.714 0.336042C20.1423 0.00762722 19.4641 -0.081954 18.8268 0.086759C18.1894 0.255472 17.6444 0.668852 17.31 1.2371L14.5318 6.01772H9.0253C8.36147 6.01772 7.72484 6.28142 7.25545 6.75081C6.78606 7.2202 6.52236 7.85683 6.52236 8.52065V14.0271L1.76677 16.7804C1.47997 16.9439 1.22834 17.1625 1.0264 17.4237C0.824448 17.6849 0.676165 17.9834 0.590086 18.3021C0.504007 18.6209 0.481833 18.9535 0.524842 19.2808C0.567851 19.6081 0.675192 19.9237 0.840684 20.2094L3.59392 24.965L0.840684 29.7456C0.672575 30.0339 0.563829 30.353 0.520844 30.6839C0.47786 31.0149 0.501506 31.3511 0.59039 31.6728ZM8.64986 23.7385L6.42224 19.9591L10.3018 17.7064C10.6754 17.4849 10.985 17.17 11.2 16.7926C11.415 16.4152 11.5282 15.9883 11.5282 15.5539V11.0236H15.9835C16.4245 11.0253 16.8582 10.9105 17.2406 10.6908C17.623 10.471 17.9405 10.1541 18.161 9.77213L20.4637 5.9176L24.3183 8.14522C24.6988 8.36489 25.1304 8.48055 25.5697 8.48055C26.0091 8.48055 26.4407 8.36489 26.8212 8.14522L30.7008 5.9176L32.9784 9.77213C33.1989 10.1541 33.5165 10.471 33.8989 10.6908C34.2813 10.9105 34.7149 11.0253 35.156 11.0236H39.5862V15.4788C39.5888 15.9156 39.7057 16.3441 39.9253 16.7218C40.1448 17.0994 40.4594 17.413 40.8377 17.6314L44.6922 19.884L42.4646 23.7385C42.2449 24.119 42.1292 24.5506 42.1292 24.99C42.1292 25.4294 42.2449 25.861 42.4646 26.2415L44.6922 30.096L40.8377 32.3486C40.4594 32.567 40.1448 32.8806 39.9253 33.2583C39.7057 33.6359 39.5888 34.0644 39.5862 34.5012V38.9564H35.0058C34.569 38.959 34.1405 39.0759 33.7629 39.2955C33.3853 39.515 33.0717 39.8296 32.8533 40.2079L30.6257 44.0624L26.7461 41.8348C26.3656 41.6151 25.934 41.4995 25.4946 41.4995C25.0553 41.4995 24.6237 41.6151 24.2432 41.8348L20.4637 44.0624L18.2361 40.2079C18.0156 39.8259 17.6981 39.509 17.3157 39.2892C16.9333 39.0695 16.4996 38.9547 16.0586 38.9564H11.5282V34.5012C11.5072 34.0882 11.3841 33.6869 11.1701 33.3332C10.9561 32.9794 10.6578 32.6841 10.3018 32.4738L6.42224 30.2211L8.64986 26.3666C8.89351 25.9716 9.02254 25.5167 9.02254 25.0526C9.02254 24.5885 8.89351 24.1335 8.64986 23.7385Z"
+                fill="#FBBC04"
+              />
+            </svg>
+            <h1 class="text-4xl font-medium text-center increament-counter" data-num="12">12+</h1>
+            <p class="text-sm text-center">Certifications</p>
+          </div>
+          <div class="bg-white p-5 col-span-1 w-full space-y-3 rounded-lg max-w-[300px] mx-auto">
+            <svg class="mx-auto w-10 block sm:w-14" viewBox="0 0 51 50" fill="none">
+              <path
+                d="M11 40H16C16.275 40 16.5 39.775 16.5 39.5V10.5C16.5 10.225 16.275 10 16 10H11C10.725 10 10.5 10.225 10.5 10.5V39.5C10.5 39.775 10.725 40 11 40ZM23 22.5H28C28.275 22.5 28.5 22.275 28.5 22V10.5C28.5 10.225 28.275 10 28 10H23C22.725 10 22.5 10.225 22.5 10.5V22C22.5 22.275 22.725 22.5 23 22.5ZM35 27H40C40.275 27 40.5 26.775 40.5 26.5V10.5C40.5 10.225 40.275 10 40 10H35C34.725 10 34.5 10.225 34.5 10.5V26.5C34.5 26.775 34.725 27 35 27ZM48.5 0H2.5C1.39375 0 0.5 0.89375 0.5 2V48C0.5 49.1063 1.39375 50 2.5 50H48.5C49.6063 50 50.5 49.1063 50.5 48V2C50.5 0.89375 49.6063 0 48.5 0ZM46 45.5H5V4.5H46V45.5Z"
+                fill="#FBBC04"
+              />
+            </svg>
+            <h1 class="text-4xl font-medium text-center increament-counter" data-num="100">100+</h1>
+            <p class="text-sm text-center">Completed Projects</p>
+          </div>
+          <div class="bg-white p-5 col-span-1 w-full space-y-3 rounded-lg max-w-[300px] mx-auto">
+            <svg class="mx-auto w-10 block sm:w-14" viewBox="0 0 51 50" fill="none">
+              <path
+                d="M25.5 0C11.7161 0 0.5 11.213 0.5 24.9984C0.5 38.7839 11.7161 49.9969 25.5 49.9969C39.2839 49.9969 50.5 38.7839 50.5 24.9984C50.5 11.213 39.2839 0 25.5 0ZM25.5 48.3318C12.6344 48.3318 2.16823 37.864 2.16823 24.9984C2.16823 12.1328 12.6344 1.66511 25.5 1.66511C38.3656 1.66511 48.8318 12.1328 48.8318 24.9984C48.8318 37.864 38.3656 48.3318 25.5 48.3318Z"
+                fill="#FBBC04"
+              />
+              <path
+                d="M16.9253 25.7782C18.645 25.7782 20.0435 24.3797 20.0435 22.66C20.0435 20.9404 18.645 19.5419 16.9253 19.5419C15.2056 19.5419 13.8071 20.9404 13.8071 22.66C13.8071 24.3797 15.2056 25.7782 16.9253 25.7782ZM16.9253 21.101C17.2341 21.1007 17.5361 21.192 17.7929 21.3633C18.0498 21.5347 18.2501 21.7784 18.3684 22.0637C18.4867 22.3489 18.5178 22.6628 18.4576 22.9657C18.3974 23.2686 18.2488 23.5468 18.0304 23.7652C17.8121 23.9835 17.5338 24.1322 17.231 24.1923C16.9281 24.2525 16.6141 24.2215 16.3289 24.1032C16.0437 23.9848 15.8 23.7846 15.6286 23.5277C15.4572 23.2708 15.3659 22.9688 15.3662 22.66C15.3662 21.7994 16.0662 21.101 16.9253 21.101ZM34.0753 25.7782C35.795 25.7782 37.1935 24.3797 37.1935 22.66C37.1935 20.9404 35.795 19.5419 34.0753 19.5419C32.3556 19.5419 30.9571 20.9404 30.9571 22.66C30.9571 24.3797 32.3556 25.7782 34.0753 25.7782ZM34.0753 21.101C34.3841 21.1007 34.686 21.192 34.9429 21.3633C35.1998 21.5347 35.4001 21.7784 35.5184 22.0637C35.6367 22.3489 35.6678 22.6628 35.6076 22.9657C35.5474 23.2686 35.3987 23.5468 35.1804 23.7652C34.962 23.9835 34.6838 24.1322 34.3809 24.1923C34.0781 24.2525 33.7641 24.2215 33.4789 24.1032C33.1937 23.9848 32.9499 23.7846 32.7786 23.5277C32.6072 23.2708 32.5159 22.9688 32.5162 22.66C32.5162 21.7994 33.2162 21.101 34.0753 21.101ZM36.138 34.4702C34.8282 35.8878 33.24 37.0198 31.4726 37.7954C29.7052 38.571 27.7968 38.9734 25.8667 38.9775C23.9097 38.9748 21.975 38.5617 20.1875 37.7649C18.4001 36.9682 16.7996 35.8054 15.4894 34.3517C15.34 34.1921 15.1339 34.0976 14.9155 34.0884C14.697 34.0793 14.4838 34.1562 14.3215 34.3027C14.1593 34.4492 14.061 34.6536 14.0479 34.8718C14.0348 35.09 14.1079 35.3047 14.2515 35.4695C15.7187 37.0954 17.5103 38.3958 19.5109 39.2868C21.5115 40.1778 23.6767 40.6397 25.8667 40.6426C30.2134 40.6426 34.4043 38.8044 37.3619 35.6005C37.5117 35.4382 37.591 35.223 37.5823 35.0022C37.5735 34.7815 37.4774 34.5733 37.3151 34.4234C37.1528 34.2735 36.9376 34.1942 36.7168 34.203C36.4961 34.2118 36.2879 34.3079 36.138 34.4702Z"
+                fill="#FBBC04"
+              />
+            </svg>
+            <h1 class="text-4xl font-medium text-center increament-counter" data-num="100">100+</h1>
+            <p class="text-sm text-center">Happy Clients</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section">
+      <!-- Replace this ima -->
+      <%- include("./_partials/autoPlay.ejs") %>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script>
+      const carouselElement = document.getElementById("carousel-example");
+
+      const items = [
+        {
+          position: 0,
+          el: document.getElementById("carousel-item-1"),
+        },
+        {
+          position: 1,
+          el: document.getElementById("carousel-item-2"),
+        },
+      ];
+
+      // options with default values
+      const options = {
+        defaultPosition: 0,
+        interval: 3000,
+      };
+
+      // instance options object
+      const instanceOptions = {
+        id: "carousel-example",
+        override: true,
+      };
+      const carousel = new Carousel(carouselElement, items, options, instanceOptions);
+
+      document.getElementById("carousel-indicator-1").addEventListener("click", () => carousel.slideTo(1));
+      document.getElementById("carousel-indicator-2").addEventListener("click", () => carousel.slideTo(0));
+    </script>
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 600,
+        easing: "ease-out",
+      });
+      document.addEventListener("aos:in:super-duper", ({ detail }) => {
+        const countElements = Array.from(document.getElementsByClassName("increament-counter"));
+      });
+    </script>
+  </body>
+</html>
