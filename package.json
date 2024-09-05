@@ -1,7 +1,26 @@
 {
+  "name": "obst-website",
+  "version": "1.0.0",
+  "description": "the obst website, designed by esther and developed by chukwuebuka",
+  "main": "tailwind.config.js",
+  "type": "module",
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "nodemon": "^3.1.4"
-  }
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
+    "concurrently": "^8.2.2"
+  },
+  "deleted_dependencies": {
+    "imagemin": "^9.0.0",
+    "imagemin-webp": "^8.0.0"
+  },
+  "scripts": {
+    "server": "concurrently \"nodemon app\" && \"npx tailwindcss -i ./tailwind.css -o ./public/assets/output.css --watch\"",
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./public/assets/output.css --watch"
+  },
+  "author": "chukwuebuka stanley",
+  "license": "ISC"
 }

@@ -1,0 +1,179 @@
+<style>
+  @keyframes slideInUp {
+    0% {
+      -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+      transform: translateY(100%);
+      visibility: visible;
+    }
+
+    100% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  .slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+  }
+</style>
+<div class="bg-[url('./home/circleback.png')] bg-no-repeat">
+  <section class="section lg:section mx-auto relative py-10">
+    <div class="grid grid-cols-4 lg:grid-cols-5 gap-x-5 items-center">
+      <div class="col-span-full md:col-span-2 h-full text-white space-y-4 flex items-center pb-5">
+        <div class="flex flex-col justify-between gap-y-5 h-[100%] max-h-[400px]">
+          <h1 class="text-4xl text-newPrimary">Product Specifications</h1>
+          <span class="block flex-grow w-[1px] max-h-[100px] min-h-[70px] bg-secondary"></span>
+          <div class="space-y-4">
+            <div class="space-y-2 text-black">
+              <h3 class="text-lg">New Arrivals</h3>
+              <p class="text-gray-500">
+                In addition to our popular products, the Stackable storage systems, the Wall-mounted solar battery and our Solar street light, we are excited to
+                introduce our latest arrivals. Our 150KW Inverter + 350KWh Battery is the right Solar system for industrial use, good to power hotels, large
+                supermarket and all types of commercial buildings
+              </p>
+            </div>
+          </div>
+          <div class="md:hidden flex gap-x-5">
+            <div class="cursor-pointer swiper-button-p group">
+              <svg class="w-7 fill-newPrimary" viewBox="0 0 17 17" version="1.1">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M8.5 5.793l4.354 4.354-0.707 0.707-3.647-3.647-3.646 3.646-0.707-0.707 4.353-4.353zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z"
+                    class="fill-newPrimary group-hover:fill-secondary"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="cursor-pointer swiper-button-n group">
+              <svg class="w-7 fill-newPrimary" viewBox="0 0 17 17" version="1.1" fill="#000000">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z"
+                    class="group-hover:fill-secondary"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-full md:col-span-2 lg:col-span-3 relative flex items-end">
+        <div class="flex-grow"></div>
+        <div class="swiper h-[300px] sm:h-[450px] md:h-[600px] lg:max-w-[600px] w-full relative">
+          <div class="swiper-wrapper h-full">
+            <% products.filter(product=> !!product.homeProducts).forEach((product)=>{%>
+            <div class="swiper-slide items-end justify-end relative max-lg:py-5" style="display: flex !important">
+              <!-- class="block absolute left-[10px] md:left-0 lg:left-[20px] max-md:bottom-[30%] md:top-[15%] lg:bottom-[10%] lg:top-auto h-[60%] lg:h-[80%] max-h-[180px] z-10" -->
+              <img
+                src="<%= product.url %>"
+                class="block absolute left-[10px] md:left-0 lg:left-[20px] bottom-[20%] lg:bottom-[10%] lg:top-auto w-[40%] z-10"
+                alt="<%= product.title %>"
+                srcset=""
+              />
+              <a
+                href="/product-<%= product.slug.toLowerCase() %>.html"
+                class="aspect-[4/1] bg-newPrimary text-white text-end flex justify-end flex-col w-full p-5 rounded-lg relative group"
+              >
+                <div class="w-[50%] max-w-[300px] ms-auto">
+                  <% if(!product.break){%>
+                  <h1 class="text-base md:text-xs lg:text-base group-hover:underline font-Merriweather text-[#f19a1f]">
+                    <%= product.title.slice(0,35) + (product.title.length > 35 ? "..." : "") %>
+                  </h1>
+                  <%}else{%>
+                  <h1 class="text-base lg:text-lg group-hover:underline">
+                    <span class="block font-medium font-Merriweather text-[#f19a1f]">
+                      <%= product.title.slice(0, product.break).split("_")[0] %> <%if(product.title.slice(0, product.break).split("_")[1]){%>
+                      <br />
+                      <%= product.title.slice(0, product.break).split("_")[1] %> <%}%>
+                    </span>
+                    <p class="text-xs lg:text-sm">
+                      <%= product.title.slice(product.break).slice(0,30) + (product.title.slice(product.break).length > 30 ? "..." : "") %>
+                    </p>
+                  </h1>
+                  <%}%>
+                </div>
+              </a>
+            </div>
+            <%})%>
+          </div>
+        </div>
+        <div class="max-md:hidden h-full w-auto flex items-end md:px-1 lg:px-2 xl:px-5">
+          <div class="flex justify-between flex-col h-[200px] max-lg:py-5 md:h-[500px]">
+            <div class="cursor-pointer swiper-button-p group">
+              <svg class="w-10 group rotate-180" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.06 11.27L12.53 14.8C12.38 14.95 12.19 15.02 12 15.02C11.81 15.02 11.62 14.95 11.47 14.8L7.94 11.27C7.65 10.98 7.65 10.5 7.94 10.21C8.23 9.92 8.71 9.92 9 10.21L12 13.21L15 10.21C15.29 9.92 15.77 9.92 16.06 10.21C16.35 10.5 16.35 10.97 16.06 11.27Z"
+                    class="fill-primary group-hover:fill-newPrimary"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+
+            <div class="cursor-pointer swiper-button-n group">
+              <svg class="w-10 group" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.06 11.27L12.53 14.8C12.38 14.95 12.19 15.02 12 15.02C11.81 15.02 11.62 14.95 11.47 14.8L7.94 11.27C7.65 10.98 7.65 10.5 7.94 10.21C8.23 9.92 8.71 9.92 9 10.21L12 13.21L15 10.21C15.29 9.92 15.77 9.92 16.06 10.21C16.35 10.5 16.35 10.97 16.06 11.27Z"
+                    class="fill-primary group-hover:fill-newPrimary"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      direction: "vertical",
+      loop: true,
+      autoplay: {
+        delay: 10000,
+      },
+      centeredSlides: true,
+      slidesPerView: 1,
+      breakpoints: {
+        // when window width is >= 320px
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          centeredSlides: false,
+        },
+      },
+      // If we need pagination
+      pagination: {
+        el: ".swiper-pagination",
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-n",
+        prevEl: ".swiper-button-p",
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: ".swiper-scrollbar",
+      },
+    });
+  });
+</script>

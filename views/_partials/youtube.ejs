@@ -1,0 +1,53 @@
+<section class="section max-sm:py-10" id="certifications">
+  <div class="text-center py-5 space-y-3" data-aos="fade-down">
+    <h1 class="title">Review from Our Client</h1>
+    <p class="text-sm">Listen to what our client has to say.</p>
+  </div>
+  <div class="mt-5">
+    <div id="preview" class="relative">
+      <img
+        src="./webp/home/youtube-thumbnail.webp"
+        loading="lazy"
+        alt="Watch a review from one of OBST Solar power clients and here what they have to say"
+        class="w-full aspect-video object-cover object-center"
+        style="aspect-ratio: 16/9"
+      />
+      <div class="w-20 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 cursor-pointer">
+        <svg class="w-full" version="1.1" viewBox="0 0 68 48" width="100%">
+          <path
+            class="ytp-large-play-button-bg"
+            d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"
+            fill="#f00"
+          ></path>
+          <path d="M 45,24 27,14 27,34" fill="#fff"></path>
+        </svg>
+      </div>
+    </div>
+    <iframe
+      class="w-full aspect-video hidden"
+      style="aspect-ratio: 16/9"
+      src=""
+      id="iframe-play-custom"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="autoplay"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
+<script>
+  const preview = document.getElementById("preview");
+  const playYoutube = function () {
+    preview.removeEventListener("click", playYoutube);
+    const youtubeIframe = document.getElementById("iframe-play-custom");
+    youtubeIframe.setAttribute("src", "https://www.youtube.com/embed/0aGSyzXN3Po?si=cc2cLwG5SGtKYrk9");
+    setTimeout(() => {
+      youtubeIframe.classList.remove("hidden");
+      this.classList.add("hidden");
+    }, 800);
+  };
+  preview.addEventListener("click", playYoutube);
+</script>

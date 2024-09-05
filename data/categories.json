@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Wall-mounted Energy Storage System",
+        "image": "./assets/products/shadows/wall-mounted-10.png",
+        "url": "/wall-mounted-energy-storage-system"
+    },
+    {
+        "title": "All-In-One Stackable Energy Storage System",
+        "image": "./assets/products/shadows/stackable-2.webp",
+        "url": "/all-In-one-stackable-energy-storage-system"
+    },
+    {
+        "title": "Industrial and commercial distribution energy storage cabinet",
+        "image": "./assets/products/shadows/industrial.webp",
+        "url": "/industrial-and-commercial-distribution-energy-storage-cabinet"
+    },
+    {
+        "title": "Automatic & Non automatic Solar Street and Flood light",
+        "image": "./assets/products/shadows/solarlight.webp",
+        "url": "/automatic-and-non-automatic-solar-street-and-flood-light"
+    }
+]

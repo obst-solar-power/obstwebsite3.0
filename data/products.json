@@ -1,0 +1,891 @@
+[
+    {
+        "_id": 0,
+        "homeProducts": false,
+        "type": "industrial",
+        "slug": "50KW+115kwh_Small_Industrial_and_commercial_distribution_energy_storage_cabinet",
+        "title": "50KW+115kwh Small Industrial and commercial distribution energy storage cabinet",
+        "break": 11,
+        "url": "/webp/products/shadows/industrial.webp",
+        "bg": "./webp/products/industrial-bg.webp",
+        "download": "./assets/products/industrial.pdf",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": {
+            "Energy storage parameters": [
+                [
+                    "Rated energy",
+                    "115.2kWh"
+                ],
+                [
+                    "Rated Capacity",
+                    "150Ah"
+                ],
+                [
+                    "Rated Voltage",
+                    "768Vdc"
+                ],
+                [
+                    "Battery voltage range",
+                    "672~864Vdc"
+                ],
+                [
+                    "discharge current",
+                    "65A"
+                ],
+                [
+                    "Max. charge/discharge current",
+                    "88A"
+                ],
+                [
+                    "Max. charge/discharge current",
+                    "88A"
+                ]
+            ],
+            "PCS parameters": [
+                [
+                    "Rated output power",
+                    "50kW"
+                ],
+                [
+                    "DC side operating voltage range",
+                    "580~1000 Vdc"
+                ],
+                [
+                    "Max current on the flow side",
+                    "88A"
+                ],
+                [
+                    "AC side rated voltage",
+                    "400Vac @ 3L/N/PE"
+                ],
+                [
+                    "AC side working Voltage range",
+                    "300 ~ 440Vac"
+                ],
+                [
+                    "Rated grid frequency",
+                    "59Hz/60Hz"
+                ],
+                [
+                    "Current total harmonic distortion",
+                    "<3%@at rated power"
+                ],
+                [
+                    "Total harmonic distortion",
+                    "<3%@at rated power & linear load"
+                ],
+                [
+                    "Max. efficiency",
+                    "98.6%"
+                ]
+            ],
+            "Environmental parameters": [
+                [
+                    "Operating temperature",
+                    "-20C ~ 50C (degree)"
+                ],
+                [
+                    "Storage temperature",
+                    "-20C ~ 45C (degree)"
+                ],
+                [
+                    "Relative humidity",
+                    " 5 ~ 95% No condensation"
+                ],
+                [
+                    "Altitude",
+                    "2000m (derate above 2000 meters)"
+                ],
+                [
+                    "Heat dissipation method",
+                    "Smart air conditioners, smart fans"
+                ]
+            ],
+            "Other Parameters": [
+                [
+                    "Size(W*D*H)",
+                    "Machine 1150x1100x2050mm <br> with packaging 1210x1160x2110mm"
+                ],
+                [
+                    "Weight",
+                    "Net weight 1300kg, gross weight with packaging 1330kg"
+                ],
+                [
+                    "Protection level",
+                    "IP54"
+                ],
+                [
+                    "Communication method",
+                    "485, Ethernet 4G"
+                ],
+                [
+                    "Certification",
+                    "UN38.3, IEC62619, EMC"
+                ],
+                [
+                    "Loads",
+                    "UN38.3, IEC62619, EMC"
+                ]
+            ]
+        }
+    },
+    {
+        "_id": 1,
+        "slug": "5KW+10KWh-all-In-one-stackable-energy-storage-System",
+        "type": "all-in-one",
+        "homeProducts": true,
+        "title": "5KW+10KWh All-In-One Stackable Energy Storage System",
+        "break": 9,
+        "url": "./assets/products/stackable-2.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": {
+            "inverter_Parameters": [
+                [
+                    "Max PV Power",
+                    "6000W"
+                ],
+                [
+                    "Max PV input voltage",
+                    "450V"
+                ],
+                [
+                    "MPPT voltage range",
+                    "120~430V"
+                ],
+                [
+                    "Max PV charging current",
+                    "100A"
+                ],
+                [
+                    "AC rated input-power",
+                    "5000W"
+                ],
+                [
+                    "input Voltage / Current",
+                    "210~240V/20A"
+                ],
+                [
+                    "AC rated output power / Current ",
+                    "5000W"
+                ],
+                [
+                    "AC Output Voltage / Current",
+                    "210~240V /20A"
+                ],
+                [
+                    "Output frequencies",
+                    "50 ~ 60Hz"
+                ],
+                [
+                    "efficiency",
+                    "93%"
+                ]
+            ],
+            "Battery_Parameters": [
+                [
+                    "Battery type",
+                    "LFP"
+                ],
+                [
+                    "Rated Power",
+                    "5KWh*2"
+                ],
+                [
+                    "Voltage range",
+                    "42 ~ 58.6V"
+                ],
+                [
+                    "Max charging discharging current",
+                    "50A / 100A"
+                ]
+            ]
+        }
+    },
+    {
+        "_id": 2,
+        "homeProducts": false,
+        "type": "all-in-one",
+        "slug": "5KW-15KWh-all-in-one-stackable-energy-storage-system",
+        "title": "5KW+15KWh All-In-One Stackable Energy Storage System",
+        "break": 9,
+        "url": "./assets/products/stackable-3.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": {
+            "inverter_Parameters": [
+                [
+                    "Max PV Power",
+                    "6000W"
+                ],
+                [
+                    "Max PV input voltage",
+                    "450V"
+                ],
+                [
+                    "MPPT voltage range",
+                    "120~430V"
+                ],
+                [
+                    "Max PV charging current",
+                    "100A"
+                ],
+                [
+                    "AC rated input-power",
+                    "5000W"
+                ],
+                [
+                    "input Voltage / Current",
+                    "210~240V/20A"
+                ],
+                [
+                    "AC rated output power / Current ",
+                    "5000W"
+                ],
+                [
+                    "AC Output Voltage / Current",
+                    "210~240V /20A"
+                ],
+                [
+                    "Output frequencies",
+                    "50 ~ 60Hz"
+                ],
+                [
+                    "efficiency",
+                    "93%"
+                ]
+            ],
+            "Battery_Parameters": [
+                [
+                    "Rated Power",
+                    "5KWh*3"
+                ],
+                [
+                    "Battery type",
+                    "LFP"
+                ],
+                [
+                    "Voltage range",
+                    "42 ~ 58.6V"
+                ],
+                [
+                    "Max charging discharging current",
+                    "50A / 100A"
+                ]
+            ]
+        }
+    },
+    {
+        "_id": 3,
+        "slug": "5KW+10KWh_Wall_Mount_Energy_storage_system",
+        "homeProducts": true,
+        "type": "wall",
+        "title": "5kw+10KWh Wall-mounted Energy Storage System",
+        "break": 9,
+        "url": "./assets/products/products/wall-mounted-10.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": [
+            [
+                "Rated Power",
+                "5.22Kwh"
+            ],
+            [
+                "Cell Type",
+                "LFP"
+            ],
+            [
+                "Cell Quantity",
+                "16"
+            ],
+            [
+                "Rated Voltage",
+                "51.2V"
+            ],
+            [
+                "Voltage Range",
+                "44.8~57.6V"
+            ],
+            [
+                "Charging Current",
+                "50A"
+            ],
+            [
+                "Discharging Current",
+                "100A"
+            ],
+            [
+                "Dimensions",
+                "680*450*160mm"
+            ],
+            [
+                "Weight",
+                "49kg"
+            ],
+            [
+                "Communication Protocol",
+                "CAN 485"
+            ],
+            [
+                "Protection Level",
+                "IP65"
+            ],
+            [
+                "Working Temperature",
+                "-10 ~ 55C"
+            ],
+            [
+                "Relative humidity",
+                "5% ~ 95%"
+            ],
+            [
+                "Cooling method",
+                "Natural cooling"
+            ],
+            [
+                "Installation model",
+                "Ground/Wall-Mounted"
+            ],
+            [
+                "Design Life",
+                "10 years"
+            ],
+            [
+                "Certificate",
+                "IEC62619 CE RHOS MDS"
+            ],
+            [
+                "Matched Inverter",
+                "SMA/Growatt/Deye, etc"
+            ],
+            [
+                "Load",
+                "Air Conditioning, Refrigerator, fan, TV, water, heater etc."
+            ]
+        ]
+    },
+    {
+        "_id": 4,
+        "homeProducts": false,
+        "type": "wall",
+        "slug": "5KWh-lithium-iron-phosphate-battery",
+        "title": "5KWh Lithium Iron Phosphate Battery",
+        "break": 4,
+        "url": "./assets/products/products/wall-mounted-5.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": [
+            [
+                "Rated Power",
+                "10.44Kwh"
+            ],
+            [
+                "Cell Type",
+                "LFP"
+            ],
+            [
+                "Cell Quantity",
+                "32"
+            ],
+            [
+                "Rated Voltage",
+                "51.2V"
+            ],
+            [
+                "Voltage Range",
+                "44.8~57.6V"
+            ],
+            [
+                "Charging Current",
+                "50A"
+            ],
+            [
+                "Discharging Current",
+                "100A"
+            ],
+            [
+                "Dimensions",
+                "1100*480*160mm"
+            ],
+            [
+                "Weight",
+                "95kg"
+            ],
+            [
+                "Communication Protocol",
+                "CAN 485"
+            ],
+            [
+                "Protection Level",
+                "IP65"
+            ],
+            [
+                "Working Temperature",
+                "-10 ~ 55C"
+            ],
+            [
+                "Relative humidity",
+                "5% ~ 95%"
+            ],
+            [
+                "Cooling method",
+                "Natural cooling"
+            ],
+            [
+                "Installation model",
+                "Ground/Wall-Mounted"
+            ],
+            [
+                "Design Life",
+                "10 years"
+            ],
+            [
+                "Certificate",
+                "IEC62619 CE RHOS MDS"
+            ],
+            [
+                "Matched Inverter",
+                "SMA/Growatt/Deye, etc"
+            ]
+        ]
+    },
+    {
+        "_id": 5,
+        "slug": "6KW-Wall-mount-hybrid-inverter",
+        "homeProducts": true,
+        "type": "wall",
+        "title": "6KW Wall-Mounted Hybrid Inverter",
+        "break": 3,
+        "url": "./assets/products/products/6kw-inverter.png",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": [
+            [
+                "Input Voltage Waveform",
+                "Sinusoidal (utility or generator)"
+            ],
+            [
+                "Nominal Input Voltage",
+                "230Vac"
+            ],
+            [
+                "Low Loss Voltage",
+                "170Vac+- 7V (UPS); 90Vac+- 7V (Appliances)"
+            ],
+            [
+                "Low Loss Return Voltage",
+                "180Vac+- 7V (UPS); 100Vac+- 7V (Appliances)"
+            ],
+            [
+                "High Loss Voltage",
+                "280Vac+- 7V "
+            ],
+            [
+                "High Loss Return Voltage",
+                "270Vac+- 7V "
+            ],
+            [
+                "Max AC Input Voltage",
+                "300Vac"
+            ],
+            [
+                "Nominal Input Voltage",
+                "50Hz / 60Hz (Auto detection)"
+            ],
+            [
+                "Low Loss Frequency",
+                "40Hz +- 1Hz"
+            ],
+            [
+                "Low Loss Return Frequency",
+                "42Hz +- 1Hz"
+            ],
+            [
+                "High Loss Frequency",
+                "65Hz +- 1Hz"
+            ],
+            [
+                "High Loss Return Frequency",
+                "63Hz +- 1Hz"
+            ],
+            [
+                "Output Short Circuit Protection",
+                "Circuit Breaker"
+            ],
+            [
+                "Efficiency (Line Mode)",
+                "> 95% (Rated R load, battery full charged)"
+            ],
+            [
+                "Transfer Time",
+                "10ms typical, 20ms Max@ Single <30ms @ parallel"
+            ]
+        ]
+    },
+    {
+        "_id": 6,
+        "homeProducts": false,
+        "type": "solar",
+        "slug": "550W-monocrystalline-solar-panel",
+        "title": "550W Monocrystalline Solar Panel",
+        "break": 4,
+        "url": "./products/products/panel.webp",
+        "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 1000,
+        "features": [
+            [
+                "Maximum Power (Pmax)",
+                "550W"
+            ],
+            [
+                "Module Efficiency  (%)",
+                "21.30%"
+            ],
+            [
+                "Rated Voltage",
+                "51.2V"
+            ],
+            [
+                "Open Circuit Voltage  (Voc)",
+                "49.95V"
+            ],
+            [
+                "Short Circuit Current  (Isc)",
+                "14.05A"
+            ],
+            [
+                "Voltage at Max. Power  (Pmp)",
+                "41.97V"
+            ],
+            [
+                "Current at Max. Mower  (Imp)",
+                "13.11A"
+            ],
+            [
+                "Power Tolerance",
+                ""
+            ]
+        ]
+    },
+    {
+        "_id": 7,
+        "homeProducts": false,
+        "type": "light",
+        "slug": "4000LM-all-in-one-solar-street-light",
+        "title": "4000LM All-in-one Solar street light",
+        "break": 6,
+        "url": "./assets/products/street-light-2.png",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 100.65,
+        "features": [
+            [
+                "Lumen(LM)",
+                "4000LM"
+            ],
+            [
+                "Colour Tempreture",
+                "6000K ~6500K（it can be customized）"
+            ],
+            [
+                "Li-ion Battery",
+                "25ah   3.2v"
+            ],
+            [
+                "Solar Panel",
+                "6V 25W  mono panel"
+            ],
+            [
+                "Install Pole diameter",
+                "60-65mm"
+            ],
+            [
+                "Mounting Height",
+                "4~5m （Suggest install between space10-20m）"
+            ],
+            [
+                "Solar Charging Time",
+                "6-8 hours by bright sunlight"
+            ],
+            [
+                "Cloudy/Rainy days",
+                "2-3Cloudy/Rainy days"
+            ],
+            [
+                "Material",
+                "High Class Aluminum"
+            ],
+            [
+                "Product Size",
+                "640*240*155.5mm"
+            ],
+            [
+                "LED Lamp",
+                "100 PCS"
+            ],
+            [
+                "Motion sensor",
+                "Yes（Microwave Sensor）"
+            ],
+            [
+                "Remote Control",
+                "NO"
+            ],
+            [
+                "Waterproof",
+                "IP66"
+            ],
+            [
+                "Working Tempreture",
+                "-25℃ to 65℃"
+            ],
+            [
+                "Certificates",
+                "CE、ROHS、IP65"
+            ],
+            [
+                "Warranty",
+                "2 Years"
+            ]
+        ]
+    },
+    {
+        "_id": 8,
+        "homeProducts": false,
+        "type": "light",
+        "slug": "5000LM-all-in-one-solar-street-light",
+        "title": "5000LM All-in-one Solar street light",
+        "break": 6,
+        "url": "./assets/products/street-light-3.png",
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 132.12,
+        "features": [
+            [
+                "Lumen(LM)",
+                "5000LM"
+            ],
+            [
+                "Colour Tempreture",
+                "6000K ~6500K（it can be customized"
+            ],
+            [
+                "Li-ion Battery",
+                "35AH 3.2V"
+            ],
+            [
+                "Solar Panel",
+                "6V 35W  mono panel"
+            ],
+            [
+                "Install Pole diameter",
+                "60-65mm"
+            ],
+            [
+                "Mounting Height",
+                "4~6m （Suggest install between space10-20m）"
+            ],
+            [
+                "Solar Charging Time",
+                "6-8 hours by bright sunlight"
+            ],
+            [
+                "Cloudy/Rainy days",
+                "2-3Cloudy/Rainy days"
+            ],
+            [
+                "Material",
+                "High Class Aluminum "
+            ],
+            [
+                "Product Size",
+                "820*240*155.5mm"
+            ],
+            [
+                "LED Lamp",
+                "150 PCS"
+            ],
+            [
+                "Motion sensor",
+                "Yes（Microwave Sensor）"
+            ],
+            [
+                "Remote Control",
+                "NO"
+            ],
+            [
+                "Waterproof",
+                "IP66"
+            ],
+            [
+                "Working Tempreture",
+                "-25℃ to 65℃"
+            ],
+            [
+                "Certificates",
+                "CE、ROHS、IP65"
+            ],
+            [
+                "Warranty",
+                "2  Years"
+            ]
+        ]
+    },
+    {
+        "_id": 9,
+        "homeProducts": false,
+        "type": "light",
+        "slug": "6000LM-all-in-one-solar-solar-street-light",
+        "title": "6000LM All-in-one solar Solar street light",
+        "break": 6,
+        "url": "./assets/products/street-light-4.png",
+        "extra": true,
+        "images": [
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp",
+            "./webp/products/stackable-2.webp"
+        ],
+        "price": 151.09,
+        "features": [
+            [
+                " Lumen(LM)",
+                "6000LM"
+            ],
+            [
+                "Colour Tempreture",
+                "6000K ~6500K（it can be customized）"
+            ],
+            [
+                "Li-ion Battery",
+                "40AH   3.2V"
+            ],
+            [
+                "Solar Panel",
+                "6V 40W  mono panel"
+            ],
+            [
+                "Install Pole diameter",
+                "60-65mm"
+            ],
+            [
+                "Mounting Height",
+                "4~6m （Suggest install between space10-20m）"
+            ],
+            [
+                "Solar Charging Time",
+                "6-8 hours by bright sunlight"
+            ],
+            [
+                "Cloudy/Rainy days",
+                "2-3Cloudy/Rainy days"
+            ],
+            [
+                "Material",
+                "High Class Aluminum"
+            ],
+            [
+                "Product Size",
+                "1000*240*155.5mm"
+            ],
+            [
+                "LED Lamp",
+                "200 PCS"
+            ],
+            [
+                "Motion sensor",
+                "Yes（Microwave Sensor）"
+            ],
+            [
+                "Remote Control",
+                "NO"
+            ],
+            [
+                "Waterproof",
+                "IP66"
+            ],
+            [
+                "Working Tempreture",
+                "-25℃ to 65℃ "
+            ],
+            [
+                "Certificates",
+                "CE、ROHS、IP65"
+            ],
+            [
+                "Warranty",
+                "3 Years"
+            ]
+        ]
+    },
+    {
+        "_id": 10,
+        "slug": "3KW+5KWh-ups-all-in-one",
+        "homeProducts": true,
+        "type": "all-in-one",
+        "title": "3KW_5KWh UPS All-in-one C",
+        "break": 8,
+        "url": "./assets/products/products/ups-system.png",
+        "features": []
+    }
+]

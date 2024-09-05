@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST solar Power | Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta
+      name="description"
+      content="OBST Solar Power Company is a leading provider of renewable energy solutions, specializing in the sales of solar power systems in Nigeria."
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:image" content="https://obstsolarpower.com/assets/socialmedia-banner.png" />
+    <meta name="twitter:image:alt" content="Picture of OBST products, Logo and location" />
+    <meta property="og:url" content="https://obstsolarpower.com/" />
+    <meta property="og:title" content="OBST Solar Power" />
+    <meta
+      property="og:description"
+      content="OBST is a manufacturing and retail solar company in Nigeria, we sell solar panels, inverters, solar street lights and batteries"
+    />
+    <meta property="og:image" content="https://obstsolarpower.com/assets/socialmedia-banner.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  </head>
+
+  <body class="relative">
+    <%- include("./_partials/nav.ejs", {active : "./index.html"}) %>
+    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+      <!-- Carousel wrapper -->
+      <div class="relative max-sm:h-[60vh] max-sm:min-h-[300px] sm:h-[80vh] overflow-hidden rounded-lg">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out data-carousel-item" data-carousel-item id="data-carousel-item-1">
+          <img
+            src="./assets/home/carousel-1.webp"
+            class="absolute block object-center w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+          <div class="absolute top-0 text-primary left-0 block w-full h-full" style="padding: 40px">
+            <h1 class="text-lg sm:text-4xl font-medium">
+              <span class="text-sm sm:text-lg">On/off Grid</span> <br />
+              Home Energy Storage System
+            </h1>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out data-carousel-item" data-carousel-item id="data-carousel-item-2">
+          <img
+            src="./assets/home/carousel-2.webp"
+            class="absolute block object-center w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="..."
+          />
+          <div class="absolute flex items-center text-white left-0 w-full h-full p-5 sm:p-10">
+            <div class="max-sm:text-xs absolute top-0 p-5 sm:p-10 left-0 flex gap-x-4 items-center justify-between max-w-[800px] w-full">
+              <div class="gap-x-1 flex">
+                <svg class="w-5" viewBox="0 0 15 15" fill="none">
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                  <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M2.14645 11.1464C1.95118 11.3417 1.95118 11.6583 2.14645 11.8536C2.34171 12.0488 2.65829 12.0488 2.85355 11.8536L6.85355 7.85355C7.04882 7.65829 7.04882 7.34171 6.85355 7.14645L2.85355 3.14645C2.65829 2.95118 2.34171 2.95118 2.14645 3.14645C1.95118 3.34171 1.95118 3.65829 2.14645 3.85355L5.79289 7.5L2.14645 11.1464ZM8.14645 11.1464C7.95118 11.3417 7.95118 11.6583 8.14645 11.8536C8.34171 12.0488 8.65829 12.0488 8.85355 11.8536L12.8536 7.85355C13.0488 7.65829 13.0488 7.34171 12.8536 7.14645L8.85355 3.14645C8.65829 2.95118 8.34171 2.95118 8.14645 3.14645C7.95118 3.34171 7.95118 3.65829 8.14645 3.85355L11.7929 7.5L8.14645 11.1464Z"
+                      fill="#f15711"
+                    ></path>
+                  </g>
+                </svg>
+                <p class="font-light">Off grid area</p>
+              </div>
+              <div class="gap-x-1 flex">
+                <svg class="w-5" viewBox="0 0 15 15" fill="none">
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                  <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M2.14645 11.1464C1.95118 11.3417 1.95118 11.6583 2.14645 11.8536C2.34171 12.0488 2.65829 12.0488 2.85355 11.8536L6.85355 7.85355C7.04882 7.65829 7.04882 7.34171 6.85355 7.14645L2.85355 3.14645C2.65829 2.95118 2.34171 2.95118 2.14645 3.14645C1.95118 3.34171 1.95118 3.65829 2.14645 3.85355L5.79289 7.5L2.14645 11.1464ZM8.14645 11.1464C7.95118 11.3417 7.95118 11.6583 8.14645 11.8536C8.34171 12.0488 8.65829 12.0488 8.85355 11.8536L12.8536 7.85355C13.0488 7.65829 13.0488 7.34171 12.8536 7.14645L8.85355 3.14645C8.65829 2.95118 8.34171 2.95118 8.14645 3.14645C7.95118 3.34171 7.95118 3.65829 8.14645 3.85355L11.7929 7.5L8.14645 11.1464Z"
+                      fill="#f15711"
+                    ></path>
+                  </g>
+                </svg>
+                <p class="font-light">Without electricity (power shortage) area</p>
+              </div>
+              <div class="gap-x-1 flex">
+                <svg class="w-5" viewBox="0 0 15 15" fill="none">
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                  <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M2.14645 11.1464C1.95118 11.3417 1.95118 11.6583 2.14645 11.8536C2.34171 12.0488 2.65829 12.0488 2.85355 11.8536L6.85355 7.85355C7.04882 7.65829 7.04882 7.34171 6.85355 7.14645L2.85355 3.14645C2.65829 2.95118 2.34171 2.95118 2.14645 3.14645C1.95118 3.34171 1.95118 3.65829 2.14645 3.85355L5.79289 7.5L2.14645 11.1464ZM8.14645 11.1464C7.95118 11.3417 7.95118 11.6583 8.14645 11.8536C8.34171 12.0488 8.65829 12.0488 8.85355 11.8536L12.8536 7.85355C13.0488 7.65829 13.0488 7.34171 12.8536 7.14645L8.85355 3.14645C8.65829 2.95118 8.34171 2.95118 8.14645 3.14645C7.95118 3.34171 7.95118 3.65829 8.14645 3.85355L11.7929 7.5L8.14645 11.1464Z"
+                      fill="#f15711"
+                    ></path>
+                  </g>
+                </svg>
+                <p class="font-light">Remote rural area</p>
+              </div>
+            </div>
+            <div class="space-y-3 sm:space-y-7">
+              <div class="space-y-2 max-w-[500px]">
+                <h1 class="text-lg sm:text-4xl">
+                  OUTDOOR CABINET ENERGY <br />
+                  STORAGE SYSTEM
+                </h1>
+                <p class="max-sm:text-sm">
+                  we are dedicated to providing innovative solar power storage solutions that help create a greener and cleaner world.
+                </p>
+              </div>
+              <div class="flex gap-x-4">
+                <div class="space-y-1">
+                  <h2 class="font-light text-sm sm:text-lg text-white/80">50KW/100KWH</h2>
+                  <span class="bg-[#f15711]/70 h-1 sm:h-2 rounded-md block w-full"></span>
+                </div>
+                <div class="space-y-1">
+                  <h2 class="font-light text-sm sm:text-lg text-white/80">100KW/215KWH</h2>
+                  <span class="bg-[#f15711]/70 h-1 sm:h-2 rounded-md block w-full"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out data-carousel-item" data-carousel-item id="data-carousel-item-3">
+          <img
+            src="./assets/home/carousel-3.webp"
+            class="absolute block object-center w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt="OBST Solar power storage systems in lagos "
+          />
+          <div class="absolute top-0 text-black left-0 block w-full h-full" style="padding: 40px">
+            <h1 class="text-lg sm:text-4xl text-center font-medium">DRIVING THE WORLD'S SMART ENERGY FUTURE</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <div class="bg-newPrimary bg-left-top relative mt-3">
+      <div class="bg-[url('./home/circleback.png')] bg-no-repeat">
+        <section class="section space-y-16">
+          <div class="text-center max-w-[300px] mx-auto text-white">
+            <h1 class="text-4xl">Products</h1>
+            <p>Explore our wide range of high-quality solar power systems</p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-7 py-5">
+            <% categories.forEach(category=>{%>
+            <div
+              class="w-full py-10 col-span-1 shadow-md max-sm:max-w-[400px] mx-auto border bg-white/5 space-y-[10px] border-gray-500/30 border-b-0 rounded-lg group"
+            >
+              <div class="px-2 flex items-center justify-center w-[80%] max-w-[300px] mx-auto">
+                <img src="<%= category.image %>" alt="" class="w-full showImage" />
+              </div>
+              <h1 class="text-white text-center hover:underline text-lg px-2">
+                <a href="<%= category.url %>.html"><%= category.title %></a>
+              </h1>
+            </div>
+            <%})%>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div
+      id="modalVideo"
+      tabindex="-1"
+      aria-hidden="true"
+      class="fixed left-0 right-0 top-0 z-50 hidden bg-black/40 max-h-full w-full overflow-y-auto overflow-x-hidden p-4 md:inset-0"
+    >
+      <!-- Modal content -->
+      <video src="./assets/home/obst-intro.MP4" id="bigVideo" loop controls class="w-auto max-w-full md:max-w-[60%]"></video>
+    </div>
+    <!-- ££££££££££ -->
+
+    <div class="bg-[#F3F3FF]">
+      <section class="section ps-[10px] sm:ps-[100px]">
+        <h1 class="title text-primary font-medium text-center mb-5">WELCOME TO OBST SOLAR POWER</h1>
+        <div class="grid grid-cols-1 gap-x-10 lg:grid-cols-2 space-y-10 space-5 py-20 items-center">
+          <div class="col-span-1 relative">
+            <div
+              class="absolute -top-[70px] -left-[5px] sm:-left-[70px] text-center bg-newPrimary px-3 sm:px-7 py-7 sm:py-10 text-white w-[60%] max-sm:max-w-[190px] sm:max-w-[250px] rounded-lg"
+            >
+              <h1 class="text-2xl sm:text-3xl">12+</h1>
+              <p class="max-sm:text-sm">years of experience in green energy</p>
+            </div>
+            <video
+              src="./assets/home/obst-intro.MP4"
+              class="h-[400px] md:h-[530px] object-cover rounded-md"
+              id="showVideo"
+              autoplay
+              muted
+              loop
+              playsinline
+            ></video>
+          </div>
+          <div class="col-span-1 space-y-5 flex h-full items-center">
+            <div class="space-y-5">
+              <span class="text-sm"> Powering a Greener Future</span>
+              <h1 class="title text-primary font-medium">Leading the Way in Renewable Energy Solutions</h1>
+              <p class="text-lg">
+                At O.B.S.T Solar Power Company, we are dedicated to providing innovative and sustainable solar power solutions. Our mission is to empower
+                individuals and businesses to embrace clean energy and reduce their carbon footprint.
+              </p>
+              <a href="./about.html" class="button block w-fit" data-aos="fade-right">Learn More About Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- NEW PRODUCTS -->
+    <%- include("./_partials/newproducts.ejs") %>
+
+    <!-- #### -->
+
+    <div class="bg-[#F3F3FF]">
+      <section class="section">
+        <div class="grid-cols-1 lg:grid-cols-3 grid gap-x-10 max-lg:gap-y-16">
+          <div class="flex flex-col col-span-1 justify-center">
+            <h1 class="title text-newPrimary font-medium max-lg:mx-auto">Why Choose Us</h1>
+            <p class="max-lg:mx-auto">Discover why we are leading in renewable energy</p>
+            <%- include("./_partials/modal-popup.ejs") %>
+          </div>
+          <div class="col-span-1 lg:col-span-2 grid grid-cols-2 gap-5 gap-y-10">
+            <div class="col-span-1 space-y-1 px-5 sm:space-y-3 group">
+              <svg class="h-[50px] group-hover:scale-150 transition-transform" viewBox="0 0 60 53" fill="none">
+                <path
+                  d="M29.1818 25.5835C29.3315 25.8049 29.4247 26.0597 29.4532 26.3254C29.4818 26.5912 29.4448 26.8599 29.3454 27.1081L24.9818 38.0171C24.9031 38.2183 24.7854 38.4018 24.6354 38.5572C24.4854 38.7126 24.3062 38.8368 24.108 38.9226C23.9098 39.0084 23.6966 39.0541 23.4806 39.057C23.2647 39.06 23.0503 39.0202 22.8498 38.94C22.6493 38.8597 22.4666 38.7405 22.3124 38.5894C22.1582 38.4382 22.0354 38.2579 21.9512 38.0591C21.867 37.8602 21.8229 37.6467 21.8216 37.4307C21.8203 37.2147 21.8618 37.0006 21.9436 36.8008L25.4018 28.1362H19.0909C18.8235 28.1362 18.5601 28.0707 18.3238 27.9453C18.0876 27.8199 17.8857 27.6385 17.7358 27.417C17.5859 27.1956 17.4926 26.9407 17.464 26.6748C17.4354 26.4089 17.4724 26.14 17.5718 25.8917L21.9354 14.9826C22.0991 14.583 22.414 14.2643 22.8115 14.0959C23.2091 13.9275 23.6571 13.9231 24.058 14.0835C24.4588 14.244 24.78 14.5564 24.9515 14.9527C25.123 15.3489 25.131 15.7969 24.9736 16.199L21.5073 24.8635H27.8182C28.0871 24.8622 28.3523 24.9272 28.5901 25.0528C28.828 25.1784 29.0312 25.3607 29.1818 25.5835ZM60 15.2199V37.409C60 39.0003 59.3678 40.5264 58.2426 41.6516C57.1174 42.7768 55.5913 43.409 54 43.409C52.4087 43.409 50.8826 42.7768 49.7573 41.6516C48.6321 40.5264 48 39.0003 48 37.409V26.4999C48 25.7766 47.7126 25.0829 47.2012 24.5714C46.6897 24.0599 45.996 23.7726 45.2727 23.7726H40.3636V48.8635H45.2727C45.7067 48.8635 46.1229 49.0359 46.4298 49.3428C46.7367 49.6497 46.9091 50.0659 46.9091 50.4999C46.9091 50.9339 46.7367 51.3501 46.4298 51.657C46.1229 51.9638 45.7067 52.1362 45.2727 52.1362H1.63636C1.20237 52.1362 0.786157 51.9638 0.479279 51.657C0.172402 51.3501 0 50.9339 0 50.4999C0 50.0659 0.172402 49.6497 0.479279 49.3428C0.786157 49.0359 1.20237 48.8635 1.63636 48.8635H6.54545V6.86352C6.54545 5.27222 7.17759 3.7461 8.30281 2.62088C9.42803 1.49567 10.9542 0.863525 12.5455 0.863525H34.3636C35.9549 0.863525 37.481 1.49567 38.6063 2.62088C39.7315 3.7461 40.3636 5.27222 40.3636 6.86352V20.4999H45.2727C46.864 20.4999 48.3901 21.132 49.5154 22.2572C50.6406 23.3825 51.2727 24.9086 51.2727 26.4999V37.409C51.2727 38.1323 51.56 38.826 52.0715 39.3374C52.583 39.8489 53.2767 40.1362 54 40.1362C54.7233 40.1362 55.417 39.8489 55.9285 39.3374C56.4399 38.826 56.7273 38.1323 56.7273 37.409V15.2172C56.7282 14.8589 56.6581 14.504 56.5209 14.173C56.3838 13.842 56.1823 13.5415 55.9282 13.289L50.6618 8.01989C50.3728 7.70969 50.2154 7.2994 50.2229 6.87547C50.2304 6.45154 50.4021 6.04707 50.7019 5.74726C51.0017 5.44745 51.4062 5.27571 51.8301 5.26823C52.254 5.26075 52.6643 5.41811 52.9745 5.70716L58.2436 10.9735C58.8022 11.5298 59.245 12.1912 59.5464 12.9196C59.8479 13.648 60.002 14.4289 60 15.2172V15.2199ZM37.0909 48.8635V6.86352C37.0909 6.14021 36.8036 5.44651 36.2921 4.93505C35.7806 4.42359 35.0869 4.13625 34.3636 4.13625H12.5455C11.8221 4.13625 11.1284 4.42359 10.617 4.93505C10.1055 5.44651 9.81818 6.14021 9.81818 6.86352V48.8635H37.0909Z"
+                  class="fill-newPrimary"
+                />
+              </svg>
+              <h2 class="text-lg font-medium text-primary">Super Fast Charging</h2>
+              <p>Enjoy low discharge rate of 3KW - 5KW daily with our 550W Mono-crystalline Solar Panel</p>
+            </div>
+            <div class="col-span-1 space-y-1 px-5 sm:space-y-3 group">
+              <svg class="h-[50px] group-hover:scale-150 transition-transform" viewBox="0 0 50 51" fill="none">
+                <path
+                  d="M2.525 0.5L0 3.025L4.44808 10.7173L7.33269 10.2942L24.9404 27.9038L23.4385 29.3462C22.6692 30.1154 22.6692 31.2808 23.4385 32.05L24.2192 32.8327C24.9885 33.6019 26.1654 33.6019 26.7423 32.8327L29.0269 35.1154C28.8346 36.2692 29.0269 37.6404 29.9885 38.6019L40.3846 48.9385C42.5 51.0538 45.9615 51.0538 48.0769 48.9385C50.5769 46.6308 50.5538 43.1808 48.4385 41.0654L38.1019 30.6673C37.1404 29.7058 35.7692 29.3212 34.6154 29.7058L32.0904 27.4231C32.6673 26.6538 32.6673 25.4769 32.0904 24.8981L31.3692 24.1788C31.1944 23.9965 30.9845 23.8515 30.7522 23.7524C30.5199 23.6533 30.2699 23.6022 30.0173 23.6022C29.7647 23.6022 29.5148 23.6533 29.2824 23.7524C29.0501 23.8515 28.8402 23.9965 28.6654 24.1788L27.4038 25.4404L9.79615 7.83269L10.2154 4.94808L2.525 0.5ZM40.025 0.559615C36.2308 0.244231 31.2 2.75962 28.8462 4.94615C25.95 7.84231 26.4231 11.6288 28.725 15.2846L24.6404 19.3712L27.525 22.6154C29.0635 21.2692 31.3327 21.2692 32.8712 22.6154L33.6538 23.3962L33.8346 23.5769L35.5173 21.8942C38.9942 23.9385 42.6135 24.2327 45.3731 21.4731C48.0654 18.9731 50.9846 12.8077 49.6385 9.15385L44.2308 14.7423C43.4615 15.5115 42.2962 15.5115 41.5269 14.7423L35.9365 9.15385C35.7542 8.97902 35.6092 8.76914 35.5101 8.53681C35.411 8.30448 35.3599 8.05451 35.3599 7.80192C35.3599 7.54934 35.411 7.29937 35.5101 7.06704C35.6092 6.83471 35.7542 6.62482 35.9365 6.45L41.5288 0.861538C41.0481 0.692308 40.5673 0.605769 40.025 0.559615ZM18.8712 24.5385L11.8981 31.5096C11.1488 31.3431 10.3829 31.2625 9.61538 31.2692C4.23077 31.2692 0 35.5 0 40.8846C0 46.2692 4.23077 50.5 9.61538 50.5C15 50.5 19.2308 46.2692 19.2308 40.8846C19.2308 39.8981 19.075 38.95 18.8096 38.0596L22.8962 33.9731L22.2962 33.1923C20.7577 31.6538 20.7692 29.3231 22.1154 27.7827L18.8712 24.5385ZM33.775 33.3135C34.0154 33.3135 34.2423 33.3596 34.4346 33.5538L45.7942 44.9115C46.1788 45.2962 46.1788 45.9077 45.7942 46.2923C45.4096 46.6769 44.7942 46.6769 44.4096 46.2923L33.0538 34.9346C32.6692 34.55 32.6692 33.9385 33.0538 33.5538C33.2462 33.3615 33.5346 33.3135 33.775 33.3135ZM10.9385 35.8942L14.6038 39.5615L13.2808 44.5481L8.29423 45.8712L4.62692 42.2038L5.95 37.2173L10.9385 35.8942Z"
+                  class="fill-newPrimary"
+                />
+              </svg>
+              <h2 class="text-lg font-medium text-primary">5 Years Warranty</h2>
+              <p>Free After Sales Maintenance with 5 Years Warranty</p>
+            </div>
+            <div class="col-span-1 space-y-1 px-5 sm:space-y-3 group">
+              <svg class="h-[50px] group-hover:scale-150 transition-transform" viewBox="0 0 43 71" fill="none">
+                <g clip-path="url(#clip0_258_1540)">
+                  <path
+                    d="M8.0625 18H51.0625V22.375H8.0625V18ZM8.0625 26.75H42.4625V31.125H8.0625V26.75ZM8.0625 35.5H25.2625V39.875H8.0625V35.5Z"
+                    class="fill-primary"
+                  />
+                  <path
+                    d="M42.6161 57.375H11.0019L45.6875 7.96813L43.516 4.875L40.4446 9.25H5.75893C4.94458 9.25116 4.16383 9.71247 3.588 10.5327C3.01217 11.3529 2.68831 12.465 2.6875 13.625V48.625H5.75893V13.625H37.3731L2.6875 63.0319L4.859 66.125L7.93043 61.75H42.6161C43.4304 61.7488 44.2112 61.2875 44.787 60.4673C45.3628 59.6471 45.6867 58.535 45.6875 57.375V22.375H42.6161V57.375Z"
+                    class="fill-newPrimary"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_258_1540">
+                    <rect width="43" height="70" fill="white" transform="translate(0 0.5)" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <h2 class="text-lg font-medium text-primary">Certified Engineers</h2>
+              <p>Professional & Certified Engineering Team for Installations</p>
+            </div>
+            <div class="col-span-1 space-y-1 px-5 sm:space-y-3 group">
+              <svg class="h-[50px] group-hover:scale-150 transition-transform" viewBox="0 0 52 53" fill="none">
+                <path
+                  d="M26 12.6111V26.5M26 26.5V40.3889M26 26.5L13.5 19.5556M26 26.5L38.5 33.4444M26 26.5L38.5 19.5556M26 26.5L13.5 33.4444M51 3.16667V49.8333C51 50.2754 50.8244 50.6993 50.5118 51.0118C50.1993 51.3244 49.7754 51.5 49.3333 51.5H2.66667C2.22464 51.5 1.80072 51.3244 1.48816 51.0118C1.17559 50.6993 1 50.2754 1 49.8333V3.16667C1 2.72464 1.17559 2.30072 1.48816 1.98816C1.80072 1.67559 2.22464 1.5 2.66667 1.5H49.3333C49.7754 1.5 50.1993 1.67559 50.5118 1.98816C50.8244 2.30072 51 2.72464 51 3.16667Z"
+                  class="stroke-newPrimary"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h2 class="text-lg font-medium text-primary">Self- Cooling</h2>
+              <p>In-built self-cooling component that totally prevents explosion</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section py-10 space-y-[60px]" id="certifications">
+      <div class="text-center space-y-3 max-w-[300px] mx-auto" data-aos="fade-down">
+        <h1 class="title">Our Certifications</h1>
+        <p class="text-sm">View our collection of both local and international certifications</p>
+      </div>
+      <div class="mt-5 overflow-y-hidden" style="scrollbar-width: none; -ms-overflow-style: none">
+        <div class="grid grid-cols-5 gap-x-1 sm:gap-x-10 items-center">
+          <div class="col-span-1">
+            <img src="./assets/home/certs/cert-1.png" loading="lazy" alt="One certificate of OBST solar power company in nigeria" class="w-full webp" />
+          </div>
+          <div class="col-span-1">
+            <img src="./assets/home/certs/cert-2.png" loading="lazy" alt="One certificate of OBST solar power company in nigeria" class="w-full webp" />
+          </div>
+          <div class="col-span-1">
+            <img src="./assets/home/certs/cert-3.png" loading="lazy" alt="One certificate of OBST solar power company in nigeria" class="w-full webp" />
+          </div>
+          <div class="col-span-1">
+            <img src="./assets/home/certs/cert-4.png" loading="lazy" alt="One certificate of OBST solar power company in nigeria" class="w-full webp" />
+          </div>
+          <div class="col-span-1">
+            <img src="./assets/home/certs/cert-5.png" loading="lazy" alt="One certificate of OBST solar power company in nigeria" class="w-full webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%## include("./_partials/youtube.ejs") %>
+
+    <div class="py-10"><%- include("./_partials/branches.ejs") -%></div>
+
+    <section class="my-5 section relative py-0">
+      <div class="grid grid-cols-1 md:grid-cols-2 max-md:gap-y-10 lg:gap-x-10 gap-x-3">
+        <div
+          class="col-span-1 space-y-7 max-md:order-2 after:hidden after:md:block after:w-[1px] after:h-full after:border-r after:top-0 after:border-r-gray-500/20 after:absolute after:left-1/2"
+        >
+          <h1 class="title">FAQ</h1>
+
+          <div id="accordion-collapse" class="md:space-y-5" data-accordion="collapse">
+            <div>
+              <h2 id="accordion-collapse-heading-1">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 rounded-t-xl hover:bg-gray-100 gap-3"
+                  data-accordion-target="#accordion-collapse-body-1"
+                  aria-expanded="true"
+                  aria-controls="accordion-collapse-body-1"
+                >
+                  <span>How long do OBST Solar Power systems last, and what is the warranty?</span>
+                  <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+                  </svg>
+                </button>
+              </h2>
+              <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                <div class="p-5 border border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    Our solar panels typically last 25-30 years, with inverters and batteries having varying lifespans. OBST Solar Power offers warranties on
+                    products and installation to ensure long-term reliability.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 id="accordion-collapse-heading-3">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 hover:bg-gray-100 gap-3"
+                  data-accordion-target="#accordion-collapse-body-3"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-3"
+                >
+                  <span>How much can I save on my electricity bills by switching to solar power?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+                  </svg>
+                </button>
+              </h2>
+              <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                <div class="p-5 border border-t-0 border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    Savings vary based on the size of the solar system and your energy consumption, but many customers experience significant reductions in
+                    their electricity bills, often by 50% or more.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 id="accordion-collapse-heading-2">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 hover:bg-gray-100 gap-3"
+                  data-accordion-target="#accordion-collapse-body-2"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-2"
+                >
+                  <span>What maintenance is required for a solar power system?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+                  </svg>
+                </button>
+              </h2>
+              <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                <div class="p-5 border border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    Solar power systems require minimal maintenance. Regular cleaning of the panels and periodic checks of the system components are usually
+                    sufficient. OBST Solar Power offers maintenance services to keep your system running efficiently.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 id="accordion-collapse-heading-3">
+                <button
+                  type="button"
+                  class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 hover:bg-gray-100 gap-3"
+                  data-accordion-target="#accordion-collapse-body-4"
+                  aria-expanded="false"
+                  aria-controls="accordion-collapse-body-3"
+                >
+                  <span>How can I get a quote for a solar power system from OBST Solar Power?</span>
+                  <svg
+                    data-accordion-icon
+                    class="w-3 h-3 rotate-180 shrink-0"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5" />
+                  </svg>
+                </button>
+              </h2>
+              <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                <div class="p-5 border border-t-0 border-gray-200">
+                  <p class="mb-2 text-gray-500">
+                    You can get a free, no-obligation quote by contacting OBST Solar Power through our website, phone, or email. We will arrange a consultation
+                    and site assessment to provide a customized solar solution for your needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cols-span-1 space-y-7 max-md:order-1">
+          <h1 class="title">NEWS</h1>
+          <div class="space-y-5">
+            <a href="#" class="flex gap-x-5">
+              <img
+                src="https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ775/…rmat,webp/quality,q_100/resize,m_lfit,h_800,w_800"
+                alt=""
+                class="w-[150px] rounded-[10px] bg-slate-400 aspect-[4/3]"
+              />
+              <div class="space-y-3">
+                <span class="text-newPrimary text-sm">Nov 21, 2023</span>
+                <h1>OBST Solar Innovation Exchange Conference in Kenya</h1>
+              </div>
+            </a>
+            <a href="#" class="flex gap-x-5">
+              <img
+                src="https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ775/…rmat,webp/quality,q_100/resize,m_lfit,h_800,w_800"
+                alt=""
+                class="w-[150px] rounded-[10px] bg-slate-400 aspect-[4/3]"
+              />
+              <div class="space-y-3">
+                <span class="text-newPrimary text-sm">Nov 21, 2023</span>
+                <h1>OBST Solar Innovation Exchange Conference in Kenya</h1>
+              </div>
+            </a>
+            <a href="#" class="flex gap-x-5">
+              <img
+                src="https://ueeshop.ly200-cdn.com/u_file/UPAZ/UPAZ775/…rmat,webp/quality,q_100/resize,m_lfit,h_800,w_800"
+                alt=""
+                class="w-[150px] rounded-[10px] bg-slate-400 aspect-[4/3]"
+              />
+              <div class="space-y-3">
+                <span class="text-newPrimary text-sm">Nov 21, 2023</span>
+                <h1>OBST Solar Innovation Exchange Conference in Kenya</h1>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section my-5">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-x-10 max-md:gap-y-10">
+        <div class="col-span-1">
+          <div class="py-5 space-y-3">
+            <h1 class="title">Contact us</h1>
+            <p class="text-sm">We are here for any questions you may have</p>
+          </div>
+          <div class="space-y-5">
+            <div class="space-y-2">
+              <svg width="30" height="25" viewBox="0 0 30 25" fill="none">
+                <path
+                  d="M3 24.25C2.175 24.25 1.469 23.9565 0.882 23.3695C0.295 22.7825 0.001 22.076 0 21.25V3.25C0 2.425 0.294 1.719 0.882 1.132C1.47 0.545 2.176 0.251 3 0.25H27C27.825 0.25 28.5315 0.544 29.1195 1.132C29.7075 1.72 30.001 2.426 30 3.25V21.25C30 22.075 29.7065 22.7815 29.1195 23.3695C28.5325 23.9575 27.826 24.251 27 24.25H3ZM15 13.75L3 6.25V21.25H27V6.25L15 13.75ZM15 10.75L27 3.25H3L15 10.75ZM3 6.25V3.25V21.25V6.25Z"
+                  fill="black"
+                />
+              </svg>
+              <h1 class="font-bold">Email</h1>
+              <p>Enquiry : <span class="font-medium">info@obstsolarpower.com</span></p>
+              <p>Marketing : <span class="font-medium">sales@obstsolarpower.com</span></p>
+              <p>Job : <span class="font-medium">hr@obstsolarpower.com</span></p>
+            </div>
+            <div class="space-y-2">
+              <svg width="30" height="38" viewBox="0 0 30 38" fill="none">
+                <path
+                  d="M28.8723 26.4468L21.4941 22.3199C21.208 22.1651 20.8957 22.102 20.5852 22.1361C20.2747 22.1702 19.976 22.3005 19.7159 22.5152C19.6951 22.5317 19.6753 22.5499 19.6565 22.5699L15.7815 26.6988C15.6953 26.7645 15.5974 26.8027 15.4965 26.8098C15.3957 26.817 15.295 26.7929 15.2034 26.7398C12.6658 25.2085 10.0392 21.9507 8.8142 18.816C8.77087 18.7023 8.75075 18.577 8.75566 18.4512C8.76057 18.3254 8.79035 18.2031 8.84233 18.0953L12.1549 13.1714C12.1705 13.148 12.1846 13.1226 12.1986 13.0972C12.3699 12.7726 12.4738 12.3998 12.5011 12.0125C12.5284 11.6252 12.4781 11.2355 12.3549 10.8785L9.04702 1.67143C8.88732 1.20511 8.61091 0.816143 8.25929 0.562926C7.90767 0.30971 7.49982 0.205917 7.09699 0.267134C5.13067 0.591197 3.32595 1.7989 2.01993 3.66467C0.713915 5.53043 -0.00409373 7.92667 1.75584e-05 10.4058C1.75584e-05 25.4839 9.81265 37.7496 21.8753 37.7496C23.8587 37.7547 25.7757 36.8572 27.2683 35.2247C28.7609 33.5922 29.7271 31.3363 29.9864 28.8785C30.035 28.3772 29.9528 27.8698 29.7521 27.4316C29.5513 26.9935 29.2428 26.6481 28.8723 26.4468ZM28.7504 28.6831C28.5298 30.7647 27.7102 32.6745 26.4448 34.0556C25.1795 35.4366 23.5551 36.1943 21.8753 36.1871C10.5033 36.1871 1.25003 24.6206 1.25003 10.4058C1.24422 8.30609 1.8504 6.27561 2.95526 4.69398C4.06011 3.11235 5.58799 2.08786 7.25324 1.81206C7.27822 1.81012 7.30327 1.81012 7.32824 1.81206C7.45155 1.81337 7.57178 1.86024 7.67382 1.94678C7.77586 2.03332 7.85514 2.15565 7.90169 2.29838L11.2002 11.5054C11.2387 11.6179 11.2555 11.7402 11.2492 11.8623C11.243 11.9845 11.2139 12.1031 11.1642 12.2085L7.85325 17.1304C7.83763 17.1558 7.822 17.1792 7.80794 17.2066C7.63154 17.5438 7.52766 17.9321 7.50631 18.3341C7.48496 18.7361 7.54687 19.1381 7.68606 19.5015C9.04389 22.9761 11.8439 26.4507 14.6549 28.148C14.9476 28.3209 15.2711 28.3961 15.5939 28.3663C15.9167 28.3365 16.2279 28.2028 16.4971 27.9781L16.5549 27.9234L20.4347 23.7984C20.5177 23.735 20.6115 23.6972 20.7085 23.688C20.8055 23.6788 20.9028 23.6986 20.9925 23.7457L28.3692 27.8785C28.4936 27.9432 28.598 28.0566 28.6668 28.2016C28.7355 28.3466 28.7648 28.5156 28.7504 28.6831Z"
+                  fill="black"
+                />
+              </svg>
+              <h1 class="font-bold">Phone</h1>
+              <p>
+                Peace :
+                <br />
+                <span class="font-medium">+2348110400099</span>
+                <br />
+                <span class="font-medium">+2349129968612</span>
+              </p>
+            </div>
+            <div class="space-y-2">
+              <svg width="30" height="34" viewBox="0 0 30 34" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M15 0.0830078C18.9782 0.0830078 22.7936 1.66336 25.6066 4.47641C28.4196 7.28945 30 11.1048 30 15.083C30 20.2063 27.2067 24.3997 24.2633 27.408C22.7925 28.8945 21.188 30.2424 19.47 31.4347L18.76 31.918L18.4267 32.1397L17.7983 32.5397L17.2383 32.8813L16.545 33.2847C16.0742 33.5527 15.5417 33.6936 15 33.6936C14.4583 33.6936 13.9258 33.5527 13.455 33.2847L12.7617 32.8813L11.895 32.348L11.575 32.1397L10.8917 31.6847C9.0383 30.4302 7.31178 28.9979 5.73667 27.408C2.79333 24.398 0 20.2063 0 15.083C0 11.1048 1.58035 7.28945 4.3934 4.47641C7.20644 1.66336 11.0218 0.0830078 15 0.0830078ZM15 3.41634C11.9058 3.41634 8.93834 4.6455 6.75042 6.83343C4.5625 9.02135 3.33333 11.9888 3.33333 15.083C3.33333 18.953 5.45333 22.3497 8.11833 25.0763C9.26437 26.2362 10.5029 27.3008 11.8217 28.2597L12.585 28.803C12.8317 28.9747 13.0683 29.1347 13.2967 29.283L13.9467 29.6997L14.5183 30.048L15 30.3297L15.7583 29.8813L16.37 29.498C16.695 29.2913 17.045 29.0597 17.415 28.803L18.1783 28.2597C19.4971 27.3008 20.7356 26.2362 21.8817 25.0763C24.5467 22.3513 26.6667 18.953 26.6667 15.083C26.6667 11.9888 25.4375 9.02135 23.2496 6.83343C21.0617 4.6455 18.0942 3.41634 15 3.41634ZM15 8.41634C16.7681 8.41634 18.4638 9.11872 19.714 10.369C20.9643 11.6192 21.6667 13.3149 21.6667 15.083C21.6667 16.8511 20.9643 18.5468 19.714 19.7971C18.4638 21.0473 16.7681 21.7497 15 21.7497C13.2319 21.7497 11.5362 21.0473 10.286 19.7971C9.03571 18.5468 8.33333 16.8511 8.33333 15.083C8.33333 13.3149 9.03571 11.6192 10.286 10.369C11.5362 9.11872 13.2319 8.41634 15 8.41634ZM15 11.7497C14.1159 11.7497 13.2681 12.1009 12.643 12.726C12.0179 13.3511 11.6667 14.199 11.6667 15.083C11.6667 15.9671 12.0179 16.8149 12.643 17.44C13.2681 18.0652 14.1159 18.4163 15 18.4163C15.8841 18.4163 16.7319 18.0652 17.357 17.44C17.9821 16.8149 18.3333 15.9671 18.3333 15.083C18.3333 14.199 17.9821 13.3511 17.357 12.726C16.7319 12.1009 15.8841 11.7497 15 11.7497Z"
+                  fill="black"
+                />
+              </svg>
+              <h1 class="font-bold">Address</h1>
+              <p>Monday - Friday</p>
+              <p>8am - 5pm</p>
+              <p><span class="font-medium">9 QMB Builders Mart Road, Lekki, Lagos</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-1 md:col-span-2 max-md:h-[500px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6667.810763187242!2d3.477045312549793!3d6.432056533103311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf57a44c5737f%3A0x7d8b89196d18b311!2sOMS%20HOUSE!5e0!3m2!1sen!2sus!4v1713794963692!5m2!1sen!2sus"
+            class="w-full h-full"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+    <script>
+      const options = {
+        backdrop: "dynamic",
+        backdropClasses: "bg-gray-900/50 dark:bg-gray-900/80 fixed inset-0 z-40",
+        closable: true,
+        onToggle: (e) => {
+          console.log(e);
+        },
+      };
+      const $targetEl = document.getElementById("modalEl");
+      const $targeElVideo = document.getElementById("modalVideo");
+
+      const videoModal = new Modal($targeElVideo, {
+        ...options,
+        onHide: () => {
+          document.getElementById("bigVideo").pause();
+          document.getElementById("bigVideo").currentTime = 0;
+        },
+      });
+      const modal = new Modal($targetEl, options);
+
+      document.querySelectorAll(".showImage").forEach((image) =>
+        image.addEventListener("click", function (e) {
+          document.getElementById("bigModal").setAttribute("src", e.target.getAttribute("src"));
+          modal.show();
+        })
+      );
+
+      document.getElementById("showVideo").addEventListener("click", function (e) {
+        document.getElementById("bigVideo").play();
+        videoModal.show();
+      });
+    </script>
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 600,
+        easing: "ease-out",
+      });
+    </script>
+    <!-- removing AOS DELAY on mobiles -->
+    <script>
+      const setDelay = function () {
+        const allDeskdelay = document.getElementsByClassName("desktop-delay");
+        for (let i = 0; i < allDeskdelay.length; i++) {
+          allDeskdelay[i].removeAttribute("data-aos-delay");
+        }
+      };
+      const mqList = window.matchMedia("(max-width: 764px)");
+      // If media query matches on load
+      if (mqList.matches) {
+        setDelay(); // using Hugo's function
+      }
+    </script>
+  </body>
+</html>

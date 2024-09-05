@@ -8,3 +8,22 @@ import { fileURLToPath } from "url";
 // Get the filename and directory name
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+app.set("view engine", "ejs");
+app.use("/assets", express.static("public/assets"));
+
+const products = JSON.parse(fs.readFileSync("./data/products.json", "utf-8"));
+const categories = JSON.parse(fs.readFileSync("./data/categories.json", "utf-8"));
+
+app.use(function (req, res) {
+  if (req.url.includes(".html")) {
+    return ejs.renderFile("./views/" + req.url.split(".")[0] + ".ejs", { products, categories }, function (err, html) {
+      if (err) console.log(err);
+      return res.send(html);
+    });
+  }
+  return res.redirect("/index.html");
+});
+
+const PORT = 3000;
+app.listen(PORT, console.log("server running..."));

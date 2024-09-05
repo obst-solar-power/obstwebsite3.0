@@ -1,0 +1,63 @@
+<section class="section py-0">
+  <div class="py-5 space-y-3">
+    <h1 class="title">Our Branches</h1>
+    <p class="text-sm max-w-[500px]">
+      If you are interested in our products outside of Nigeria, here are all our branches all over the world and their contact information.
+    </p>
+  </div>
+  <div id="map" class="h-screen py-0 max-h-[400px] md:max-h-[600px]"></div>
+</section>
+<script>
+  const zoomLevel = window.innerWidth < 768 ? 2 : 3;
+
+  // Initialize the map and set its view
+  const map = L.map("map", { scrollWheelZoom: false }).setView([5, 70], zoomLevel);
+
+  // Add a tile layer
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    minZoom: 2,
+    maxZoom: 4,
+    attributionControl: false,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  }).addTo(map);
+
+  // Define marker locations
+  var locations = {
+    china: { lat: 39.9042, lng: 116.4074, label: "China", content: "<h1> China </h1>" }, // Beijing, China
+    thailand: { lat: 13.7563, lng: 100.5018, label: "Thailand", content: "<h1> Thailand </h1>" }, // Bangkok, Thailand
+    indonesia: { lat: -6.2088, lng: 106.8456, label: "Indonesia", content: "<h1> Indonesia </h1>" }, // Jakarta, Indonesia
+    dubai: { lat: 25.276987, lng: 55.296249, label: "Dubai", content: "<h1> Dubai </h1>" }, // Dubai, UAE
+    southAfrica: { lat: -30.5595, lng: 22.9375, label: "South Africa", content: "<h1> South Africa </h1>" }, // Central South Africa
+    nigeria: {
+      lat: 9.082,
+      lng: 8.6753,
+      label: "Nigeria",
+      content: `
+          <div class="space-y-2 p-2 bg-white">
+            <h1 class="border-b pb-1 border-b-gray-500 text-lg font-medium">Nigerian Branch</h1>
+            <ul class="space-y-1 list-disc">
+              <li><span class="font-bold">Mobile</span> : +2348110400099</li>
+              <li><span class="font-bold">Email</span> : Lola@obstsolarpower.com</li>
+              <li><span class="font-bold">Address</span> : 9 QMB Builders Mart Road, Lekki, Lagos</li>
+            </ul>
+          </div>
+        `,
+    }, // Central Nigeria
+  };
+
+  // Add markers to the map
+  Object.keys(locations).forEach(function (key) {
+    L.marker([locations[key].lat, locations[key].lng]).addTo(map).bindPopup(locations[key].content).openPopup();
+  });
+
+  // Draw polylines connecting China to each location
+  var chinaCoords = [locations.china.lat, locations.china.lng];
+
+  Object.keys(locations).forEach(function (key) {
+    if (key !== "china") {
+      // Skip drawing a line to itself
+      var targetCoords = [locations[key].lat, locations[key].lng];
+      L.polyline([chinaCoords, targetCoords], { color: "#0067A4", weight: 1 }).addTo(map);
+    }
+  });
+</script>
