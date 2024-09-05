@@ -6,15 +6,14 @@
         "slug": "50KW+115kwh_Small_Industrial_and_commercial_distribution_energy_storage_cabinet",
         "title": "50KW+115kwh Small Industrial and commercial distribution energy storage cabinet",
         "break": 11,
-        "url": "/webp/products/shadows/industrial.webp",
-        "bg": "./webp/products/industrial-bg.webp",
+        "url": "/assets/products/shadows/industrial.webp",
         "download": "./assets/products/industrial.pdf",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": {
@@ -146,11 +145,11 @@
         "url": "./assets/products/stackable-2.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": {
@@ -226,11 +225,11 @@
         "url": "./assets/products/stackable-3.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": {
@@ -306,11 +305,11 @@
         "url": "./assets/products/products/wall-mounted-10.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": [
@@ -402,11 +401,11 @@
         "url": "./assets/products/products/wall-mounted-5.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": [
@@ -494,11 +493,11 @@
         "url": "./assets/products/products/6kw-inverter.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": [
@@ -571,14 +570,14 @@
         "slug": "550W-monocrystalline-solar-panel",
         "title": "550W Monocrystalline Solar Panel",
         "break": 4,
-        "url": "./products/products/panel.webp",
+        "url": "./assets/products/products/panel.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 1000,
         "features": [
@@ -625,11 +624,11 @@
         "break": 6,
         "url": "./assets/products/street-light-2.png",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 100.65,
         "features": [
@@ -712,11 +711,11 @@
         "break": 6,
         "url": "./assets/products/street-light-3.png",
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 132.12,
         "features": [
@@ -800,11 +799,11 @@
         "url": "./assets/products/street-light-4.png",
         "extra": true,
         "images": [
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp",
-            "./webp/products/stackable-2.webp"
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png",
+            "./assets/products/products/stackable-2.png"
         ],
         "price": 151.09,
         "features": [
@@ -883,7 +882,7 @@
         "slug": "3KW+5KWh-ups-all-in-one",
         "homeProducts": true,
         "type": "all-in-one",
-        "title": "3KW_5KWh UPS All-in-one C",
+        "title": "3KW/5KWh UPS All-in-one C",
         "break": 8,
         "url": "./assets/products/products/ups-system.png",
         "features": []

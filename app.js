@@ -21,6 +21,22 @@ const dist = JSON.parse(fs.readFileSync("./data/distributors.json", "utf-8"));
 const passedInVariable = { products, categories, cssVersion, dist };
 app.use(function (req, res) {
   if (req.url.includes(".html")) {
+    if (req.url.startsWith("/product-")) {
+      console.log("hello");
+      return ejs.renderFile(
+        "./views/one-product.ejs",
+        {
+          ...passedInVariable,
+          product: products.find((product) => {
+            return product.slug.toLowerCase() == req.url.split("product-")[1].replace(".html", "");
+          }),
+        },
+        function (err, html) {
+          if (err) console.log(err);
+          return res.send(html);
+        }
+      );
+    }
     return ejs.renderFile("./views/" + req.url.split(".")[0] + ".ejs", passedInVariable, function (err, html) {
       if (err) console.log(err);
       return res.send(html);
