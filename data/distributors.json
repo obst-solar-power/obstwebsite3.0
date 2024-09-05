@@ -1,0 +1,27 @@
+{
+    "lagos": [
+        {
+            "title": "OBST Show room",
+            "address": "9QMB Builders Mart Road, Lekki, Lagos.",
+            "number": "+2349129968612",
+            "caller": "Emem",
+            "photo": "./webp/obst.webp"
+        },
+        {
+            "title": "OBST (okoko branch)",
+            "address": "No. 3, Jesus Close, along Oyedele Street, Great Eagles Close, Igbo Elerin, Ojo, Lagos State",
+            "number": "+2348066454595",
+            "caller": "Zainab",
+            "photo": "./webp/obst.webo"
+        }
+    ],
+    "abuja": [
+        {
+            "title": "OBST (Abuja branch)",
+            "address": "Opposite of White plains British school, Plot 902 olu awotesu street,JABI,ABUJA.",
+            "number": "+2347044760175",
+            "caller": "Rina",
+            "photo": "./webp/obst.webo"
+        }
+    ]
+}

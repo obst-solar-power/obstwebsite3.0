@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST Approved Installers</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./installers.html"}) %>
+
+    <section class="section">
+      <div class="text-center py-5 space-y-3 mb-3 aos-init aos-animate" data-aos="fade-up">
+        <h1 class="title">Our Approved Installers</h1>
+        <p class="text-sm">see below for our list of approved installers.</p>
+      </div>
+    </section>
+
+    <!-- <div class="col-span-1 text-4xl text-center font-medium"> Coming Soon</div> -->
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+
+    <!--  -->
+  </body>
+</html>

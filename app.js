@@ -16,8 +16,9 @@ app.use("/assets", express.static("public/assets"));
 
 const products = JSON.parse(fs.readFileSync("./data/products.json", "utf-8"));
 const categories = JSON.parse(fs.readFileSync("./data/categories.json", "utf-8"));
+const dist = JSON.parse(fs.readFileSync("./data/distributors.json", "utf-8"));
 
-const passedInVariable = { products, categories, cssVersion };
+const passedInVariable = { products, categories, cssVersion, dist };
 app.use(function (req, res) {
   if (req.url.includes(".html")) {
     return ejs.renderFile("./views/" + req.url.split(".")[0] + ".ejs", passedInVariable, function (err, html) {

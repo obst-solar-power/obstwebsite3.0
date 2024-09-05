@@ -783,6 +783,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .ms-auto{
   margin-inline-start: auto;
 }
@@ -817,6 +822,10 @@ video {
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
 }
 
 .block{
@@ -903,6 +912,10 @@ video {
   height: 60vh;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .max-h-full{
   max-height: 100%;
 }
@@ -921,6 +934,10 @@ video {
 
 .min-h-\[70px\]{
   min-height: 70px;
+}
+
+.min-h-\[700px\]{
+  min-height: 700px;
 }
 
 .w-10{
@@ -1038,6 +1055,10 @@ video {
 
 .max-w-\[1200px\]{
   max-width: 1200px;
+}
+
+.max-w-\[400px\]{
+  max-width: 400px;
 }
 
 .shrink-0{
@@ -1344,6 +1365,11 @@ video {
   border-bottom-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
+.border-b-gray-300{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
 .bg-\[\#f15711\]\/70{
   background-color: rgb(241 87 17 / 0.7);
 }
@@ -1397,6 +1423,16 @@ video {
 
 .bg-transparent{
   background-color: transparent;
+}
+
+.bg-\[\#F5F5F5\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FAF4F4\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 244 244 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/home\/circleback\.png\'\)\]{
@@ -1681,6 +1717,11 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.text-orange-600{
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1877,6 +1918,10 @@ html {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-primary\/60:hover{
+  background-color: rgb(16 36 60 / 0.6);
+}
+
 .hover\:fill-\[\#5757dd\]:hover{
   fill: #5757dd;
 }
@@ -1948,8 +1993,16 @@ html {
     margin-top: 2.5rem;
   }
 
+  .max-lg\:mb-4{
+    margin-bottom: 1rem;
+  }
+
   .max-lg\:hidden{
     display: none;
+  }
+
+  .max-lg\:max-w-\[600px\]{
+    max-width: 600px;
   }
 
   .max-lg\:justify-between{
@@ -1960,9 +2013,17 @@ html {
     row-gap: 4rem;
   }
 
+  .max-lg\:gap-y-10{
+    row-gap: 2.5rem;
+  }
+
   .max-lg\:py-5{
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .max-lg\:text-center{
+    text-align: center;
   }
 }
 
@@ -2040,6 +2101,10 @@ html {
 
   .max-sm\:order-2{
     order: 2;
+  }
+
+  .max-sm\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .max-sm\:h-\[60vh\]{
@@ -2373,9 +2438,18 @@ html {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
   .lg\:gap-x-10{
     -moz-column-gap: 2.5rem;
          column-gap: 2.5rem;
+  }
+
+  .lg\:gap-x-5{
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
   }
 
   .lg\:px-2{

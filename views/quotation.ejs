@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Request Quotation from OBST</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./quotation.html"}) %>
+
+    <section class="section">
+      <div class="max-w-[600px] mx-auto">
+        <div class="mb-3">
+          <div class="title mb-2">Get Quotation</div>
+          <p class="text-lg">Request a Quotation for any of our products</p>
+        </div>
+        <form action="" class="mt-7 space-y-3">
+          <div>
+            <label for="name">Name <span class="text-orange-600">*</span></label>
+            <input id="name" type="text" required name="name" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <label for="email">Email <span class="text-orange-600">*</span></label>
+            <input id="email" type="text" required name="email" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <label for="number">Phone Number <span class="text-orange-600">*</span></label>
+            <input id="number" type="text" required name="number" class="w-full rounded-lg" />
+          </div>
+          <div>
+            <label for="product"> Select Product <span class="text-orange-600">*</span></label>
+            <select name="product" required class="w-full rounded-lg p-2">
+              <option value="">Select</option>
+              <% products.forEach(product=>{%>
+              <option><%= product.title %></option>
+              <%})%>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Leave a message (Optional)" class="p-2 w-full rounded-lg" rows="7"></textarea>
+          </div>
+          <button type="submit" id="button" class="button block w-fit mx-auto bg-primary text-white hover:bg-primary/60">Request Quotation</button>
+        </form>
+      </div>
+    </section>
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+      emailjs.init("8LXW00FUkX_TSbZgx");
+
+      const btn = document.getElementById("button");
+
+      document.forms[0].addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        btn.innerText = "Sending...";
+
+        const serviceID = "default_service";
+        const templateID = "getQuotation";
+
+        emailjs.sendForm(serviceID, templateID, this).then(
+          () => {
+            document.forms[0].reset();
+            btn.innerText = "New quotation";
+            alert("Qutation Request sent successfully");
+          },
+          (err) => {
+            btn.innerText = "New quotation";
+            alert(JSON.stringify(err));
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

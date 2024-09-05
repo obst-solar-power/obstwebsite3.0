@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST Solar Power Distributors</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./dist.html"}) %>
+
+    <section class="section">
+      <div class="text-center py-5 space-y-3 mb-3 aos-init aos-animate" data-aos="fade-up">
+        <h1 class="title">Our Distributors</h1>
+        <p class="text-sm">see below for our list of distributors.</p>
+      </div>
+    </section>
+
+    <section class="section py-0">
+      <div>
+        <select id="location" name="location" class="py-2 w-[200px] rounded-lg px-3 mb-3">
+          <% for(props in dist){%>
+          <option value="<%= props %>"><%= props.charAt(0).toUpperCase() + props.slice(1) %></option>
+          <%}%>
+        </select>
+        <p>Select Location</p>
+      </div>
+      <hr class="text-black block my-4" />
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-x-5">
+        <div class="col-span-1 py-10">
+          <% for(props in dist){%> <% dist[props].forEach(prop=>{%>
+          <div class="flex gap-x-5 border-b border-b-gray-300 py-3 location-filter" data-location="<%= props %>">
+            <img src="./assets/obst.png" class="w-10 h-10" alt="" srcset="" />
+            <div class="space-y-1">
+              <h1 class="font-medium text-lg mb-2"><%= prop.title %></h1>
+              <p><%= prop.address %></p>
+              <p class="font-medium"><a href="tel:<%= prop.number %> "> <%= prop.caller %> : <%= prop.number %> </a></p>
+            </div>
+          </div>
+          <%})%> <%}%>
+        </div>
+        <div class="col-span-1 lg:col-span-2 min-h-[700px]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6667.810763187242!2d3.477045312549793!3d6.432056533103311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf57a44c5737f%3A0x7d8b89196d18b311!2sOMS%20HOUSE!5e0!3m2!1sen!2sus!4v1713794963692!5m2!1sen!2sus"
+            class="w-full h-full"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+
+    <script>
+      const locations = Array.from(document.getElementsByClassName("location-filter"));
+      const hideNseek = function (value) {
+        locations.forEach((location) => {
+          if (location.getAttribute("data-location") == value) {
+            location.classList.remove("hidden");
+          } else {
+            location.classList.add("hidden");
+          }
+        });
+      };
+      hideNseek("<%= Object.keys(dist)[0] %>");
+
+      document.getElementById("location").addEventListener("change", (e) => hideNseek(e.target.value));
+    </script>
+  </body>
+</html>

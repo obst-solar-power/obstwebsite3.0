@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST Solar power products</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./installation.html"}) %>
+
+    <div class="bg-primary">
+      <section class="section">
+        <div class="text-center py-5 space-y-3 text-white mb-5">
+          <h1 class="title">Our Installations</h1>
+          <p class="text-sm">Explore our wide range of high-quality solar power systems</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="section">
+      <h1 class="title col-span-full text-black">Our Installations</h1>
+      <div class="py-5 grid-cols-1 grid md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
+        <img src="./assets/projects/project-1.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-2.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-3.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-4.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-5.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-7.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-8.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-9.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-10.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-11.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-12.jpg" alt="" class="col-span-1" />
+        <img src="./assets/projects/project-13.jpg" alt="" class="col-span-1" />
+      </div>
+    </section>
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+  </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: "ease-out",
+    });
+  </script>
+</html>
