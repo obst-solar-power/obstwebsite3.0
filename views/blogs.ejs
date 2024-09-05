@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST Seminar Event</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./blogs.html"}) %>
+
+    <section class="section bg-[url('../assets/other/background.png')] bg-cover bg-no-repeat bg-center">
+      <div class="text-center py-5 space-y-3 mb-3 aos-init aos-animate text-white" data-aos="fade-up">
+        <h1 class="title">Our Blogs & Events</h1>
+        <p class="text-sm">View Our latest blogs and Events</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-cols-3 gap-x-10">
+        <div class="col-span-1 shadow">
+          <div class="h-[300px]">
+            <img src="./assets/other/seminar-8.png" class="h-full w-full object-cover" alt="seminar Event at OBST blogs" />
+          </div>
+          <div class="p-4 space-y-4">
+            <span class="block uppercase text-sm text-gray-500"> event </span>
+            <h1 class="text-xl capitalize">How to Become an OBST Affiliate Marketer.</h1>
+            <p>Becoming an OBST affiliate partner and earn percentage on all direct and in-direct purchases made from your affiliate link.</p>
+            <a href="./how-to-become-an-affiliate-marketer-for-obst.html" class="underline block hover:text-indigo-500">Read The Article &#x2192; </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+
+    <!--  -->
+  </body>
+</html>
