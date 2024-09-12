@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST <%= category.title %> Category</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="keywords" content="solar panel price in nigeria,solar panel for home, Solar power cost" />
+    <meta
+      name="description"
+      content="OBST solar power products, we have solar power batteries, inverters, street lights, solar flood lights and our office is in Lekki, Nigeria"
+    />
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./products.html"}) %>
+
+    <img src="./assets/products/products/banner-products.png" class="w-full h-full object-cover" alt="" srcset="" />
+    <div class="bg-[#F9F9FB]">
+      <section class="max-w-[1500px] mx-auto py-20 md:w-[90%]">
+        <!-- <div class="text-center py-5 space-y-3 text-newPrimarys mb-5">
+          <h1 class="text-3xl">Our Products</h1>
+          <p class="text-sm">Explore our wide range of high-quality solar power systems</p>
+        </div> -->
+        <div class="space-y-16">
+          <div>
+            <h1>Hello world</h1>
+            <div class="py-5 space-y-3 text-white mb-5">
+              <h1 class="text-3xl text-primary"><%= category.title %></h1>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">
+              <% subproducts.forEach(product=>{ %>
+              <div class="bg-white text-center rounded-lg py-5 max-w-[400px] mx-auto space-y-3 w-full" data-aos="fade-up">
+                <img src="<%= product.url %>" alt="" class="h-[300px] mx-auto" />
+                <p class="font-medium text-lg"><%=product.title %></p>
+                <a href="./product-<%=product.slug.toLowerCase() %>.html" class="button block mx-auto w-fit px-10">View</a>
+              </div>
+              <%})%>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section">
+      <!-- Replace this ima -->
+      <%- include("./_partials/autoPlay.ejs") %>
+    </section>
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+  </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: "ease-out",
+    });
+  </script>
+</html>

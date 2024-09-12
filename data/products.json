@@ -6,15 +6,8 @@
         "slug": "50KW+115kwh_Small_Industrial_and_commercial_distribution_energy_storage_cabinet",
         "title": "50KW+115kwh Small Industrial and commercial distribution energy storage cabinet",
         "break": 11,
-        "url": "/assets/products/shadows/industrial.webp",
+        "url": "./assets/products/shadows/industrial.webp",
         "download": "./assets/products/industrial.pdf",
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
         "price": 1000,
         "features": {
             "Energy storage parameters": [
@@ -142,14 +135,12 @@
         "homeProducts": true,
         "title": "5KW+10KWh All-In-One Stackable Energy Storage System",
         "break": 9,
-        "url": "./assets/products/stackable-2.png",
+        "url": "./assets/products/products/10kw+stackable.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
+            "./assets/products/products/10kw+stackable.png",
+            "./assets/products/products/10kwh+stackable+back.png",
+            "./assets/products/products/10kwh+stackable+side.png"
         ],
         "price": 1000,
         "features": {
@@ -222,14 +213,11 @@
         "slug": "5KW-15KWh-all-in-one-stackable-energy-storage-system",
         "title": "5KW+15KWh All-In-One Stackable Energy Storage System",
         "break": 9,
-        "url": "./assets/products/stackable-3.png",
+        "url": "./assets/products/products/15kw+stackable+battery.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
+            "./assets/products/products/15kw+stackable+battery.png",
+            "./assets/products/products/15kw+stackable+back.png"
         ],
         "price": 1000,
         "features": {
@@ -302,14 +290,12 @@
         "type": "wall",
         "title": "5kw+10KWh Wall-mounted Energy Storage System",
         "break": 9,
-        "url": "./assets/products/products/wall-mounted-10.png",
+        "url": "./assets/products/products/wall+10kw+front.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
+            "./assets/products/products/wall+10kw+front.png",
+            "./assets/products/products/wall-10KW+side.png",
+            "./assets/products/products/wall-10kw-back.png"
         ],
         "price": 1000,
         "features": [
@@ -398,14 +384,12 @@
         "slug": "5KWh-lithium-iron-phosphate-battery",
         "title": "5KWh Lithium Iron Phosphate Battery",
         "break": 4,
-        "url": "./assets/products/products/wall-mounted-5.png",
+        "url": "./assets/products/products/wall+5kw+front.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
         "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
+            "./assets/products/products/wall+5kw+front.png",
+            "./assets/products/products/wall-5kw-side.png",
+            "./assets/products/products/wall-5kw-back.png"
         ],
         "price": 1000,
         "features": [
@@ -492,13 +476,7 @@
         "break": 3,
         "url": "./assets/products/products/6kw-inverter.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
+        "images": [],
         "price": 1000,
         "features": [
             [
@@ -572,13 +550,7 @@
         "break": 4,
         "url": "./assets/products/products/panel.png",
         "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
+        "images": [],
         "price": 1000,
         "features": [
             [
@@ -623,13 +595,7 @@
         "title": "4000LM All-in-one Solar street light",
         "break": 6,
         "url": "./assets/products/street-light-2.png",
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
+        "images": [],
         "price": 100.65,
         "features": [
             [
@@ -710,13 +676,7 @@
         "title": "5000LM All-in-one Solar street light",
         "break": 6,
         "url": "./assets/products/street-light-3.png",
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
+        "images": [],
         "price": 132.12,
         "features": [
             [
@@ -798,13 +758,7 @@
         "break": 6,
         "url": "./assets/products/street-light-4.png",
         "extra": true,
-        "images": [
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png",
-            "./assets/products/products/stackable-2.png"
-        ],
+        "images": [],
         "price": 151.09,
         "features": [
             [
@@ -883,8 +837,13 @@
         "homeProducts": true,
         "type": "all-in-one",
         "title": "3KW/5KWh UPS All-in-one C",
+        "images": [
+            "./assets/products/products/ups-side.png",
+            "./assets/products/products/ups-face.png",
+            "./assets/products/products/ups-back.png"
+        ],
         "break": 8,
-        "url": "./assets/products/products/ups-system.png",
+        "url": "./assets/products/products/ups-side.png",
         "features": []
     }
 ]

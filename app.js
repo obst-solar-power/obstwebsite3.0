@@ -22,7 +22,6 @@ const passedInVariable = { products, categories, cssVersion, dist };
 app.use(function (req, res) {
   if (req.url.includes(".html")) {
     if (req.url.startsWith("/product-")) {
-      console.log("hello");
       return ejs.renderFile(
         "./views/one-product.ejs",
         {
@@ -30,6 +29,21 @@ app.use(function (req, res) {
           product: products.find((product) => {
             return product.slug.toLowerCase() == req.url.split("product-")[1].replace(".html", "");
           }),
+        },
+        function (err, html) {
+          if (err) console.log(err);
+          return res.send(html);
+        }
+      );
+    }
+    if (req.url.startsWith("/category-")) {
+      const category = categories.find((cat) => cat.url == req.url);
+      return ejs.renderFile(
+        "./views/one-category.ejs",
+        {
+          ...passedInVariable,
+          category,
+          subproducts: products.filter((product) => product.type == category.typeSelector),
         },
         function (err, html) {
           if (err) console.log(err);
@@ -45,10 +59,54 @@ app.use(function (req, res) {
   return res.redirect("/index.html");
 });
 
-/*
-Make a folder for  category and products in the output folder
-generate a random cssVersion  during build time=> "XX.XX.XXX"
-*/
+if (process.argv[2]) {
+  const pages = [
+    "about.ejs",
+    "contact.ejs",
+    "index.ejs",
+    "products.ejs",
+    "services.ejs",
+    "dist.ejs",
+    "installers.ejs",
+    "blogs.ejs",
+    "one-blog.ejs",
+    "installation.ejs",
+    "quotation.ejs",
+  ];
+  //  "one-product.ejs",
+  pages.forEach((page) => {
+    ejs.renderFile("./views/" + page, { ...passedInVariable }, function (err, html) {
+      if (err) {
+        return err;
+      }
+      fs.writeFileSync(__dirname + "/public/" + page.replace(".ejs", ".html"), html);
+    });
+  });
+  console.log("pages has been completed");
+  products.forEach((product) => {
+    return ejs.renderFile("./views/one-product.ejs", { ...passedInVariable, product }, function (err, html) {
+      if (err) console.log(err);
+      return fs.writeFileSync(__dirname + "/public/product-" + product.slug.toLowerCase() + ".html", html);
+    });
+  });
+  console.log("products has been completed");
+  categories.forEach((category) => {
+    return ejs.renderFile(
+      "./views/one-category.ejs",
+      {
+        ...passedInVariable,
+        category,
+        subproducts: products.filter((product) => product.type == category.typeSelector),
+      },
+      function (err, html) {
+        if (err) console.log(err);
+        return fs.writeFileSync(__dirname + "/public/" + category.url, html);
+      }
+    );
+  });
+
+  console.log("completed building...");
+}
 
 const PORT = 3000;
 app.listen(PORT, console.log("server running..."));
