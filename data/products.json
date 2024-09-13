@@ -845,5 +845,1030 @@
         "break": 8,
         "url": "./assets/products/products/ups-side.png",
         "features": []
+    },
+    {
+        "_id": 11,
+        "slug": "ot-sl-86001-150W-ab solar flood light",
+        "homeProducts": false,
+        "type": "light",
+        "title": "OT-SL-86001-(150W-200W) A/B",
+        "url": "",
+        "section": [
+            {
+                "title": "OT-SL-86001-150W A/B",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips SMD2835"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "1000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "6V"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "LiFePO4 18AH"
+                    ],
+                    [
+                        "Discharge Time",
+                        "18 Hours"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Products Size",
+                        "275*210*80mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "4-5m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "150㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "96PCS"
+                    ],
+                    [
+                        "Function",
+                        "Intelligent light control+Remote control"
+                    ],
+                    [
+                        "Product configuration",
+                        "Waterproof cable/u-frame/remote control/screw"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-86001-200W A/B",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips SMD2835"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "1800LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "6V ()W"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "LiFePO4 30Ah"
+                    ],
+                    [
+                        "Discharging Time",
+                        "18 HOURS"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Products Size",
+                        "308*243*80mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "5-6m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "200㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "140PCS"
+                    ],
+                    [
+                        "Function",
+                        "Intelligent light control+Remote control"
+                    ],
+                    [
+                        "Product configuration",
+                        "Waterproof cable/u-frame/remote control/screw"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 12,
+        "slug": "ot-sl-86001-150W-ab",
+        "homeProducts": false,
+        "type": "light",
+        "title": "OT-SL-83009-2 (3600LM - 10800LM) Solar Street light ",
+        "url": "",
+        "section": [
+            {
+                "title": "OT-SL-83009-2 3600LM",
+                "image": "",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "3600LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "18V 40W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 50AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "690*370*169"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "4~6m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "120㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "100PCS"
+                    ],
+                    [
+                        "Working Mode",
+                        "Light Inductor + Body Inductor"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP67"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "3 Cloudy/Rainy days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83009-3 5400LM",
+                "image": "",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "4500-5400LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "18V 60W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 60AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "840*370*169"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "5-7m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "160㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "150PCS"
+                    ],
+                    [
+                        "Working Mode",
+                        "Light Inductor + Body Inductor"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP67"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "3 Cloudy/Rainy days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83009-4 7200LM",
+                "image": "",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "7200LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "18V 80W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 80AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "1010*370*169"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "6-8m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "200㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "200PCS"
+                    ],
+                    [
+                        "Working Mode",
+                        "Light Inductor + Body Inductor"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP67"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "3 Cloudy/Rainy days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83009-5 7200LM",
+                "image": "",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "10800LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "18V 100W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 100AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "1170*400*169"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "7-9m"
+                    ],
+                    [
+                        "Lighting Area",
+                        "220㎡"
+                    ],
+                    [
+                        "LED Lamp",
+                        "250PCS"
+                    ],
+                    [
+                        "Working Mode",
+                        "Light Inductor + Body Inductor"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP67"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "5 Cloudy/Rainy days"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 13,
+        "section": [
+            {
+                "title": "OT-SL-83008-2 4000LM",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 5730/3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "4000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "6V 25W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 25AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Install Pole diameter",
+                        "60-65mm"
+                    ],
+                    [
+                        "Waterproof",
+                        "IP66"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6000K ~6500K (it can be customized)"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "640*240*155.5mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "LED Lamp",
+                        "100 PCS"
+                    ],
+                    [
+                        "Motion sensor",
+                        "Yes (Microwave Sensor)"
+                    ],
+                    [
+                        "Remote Control",
+                        "NO"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "4~5m (Suggest install between space 10-20m)"
+                    ],
+                    [
+                        "Certificates",
+                        "CE, ROHS, IP65"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "2-3 Cloudy/Rainy days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83008-3 5000LM",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 5730/3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "5000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "6V 35W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 35AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Install Pole diameter",
+                        "60-65mm"
+                    ],
+                    [
+                        "Waterproof",
+                        "IP66"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6000K ~6500K (it can be customized)"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "820*240*155.5mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "LED Lamp",
+                        "150 PCS"
+                    ],
+                    [
+                        "Motion sensor",
+                        "Yes (Microwave Sensor)"
+                    ],
+                    [
+                        "Remote Control",
+                        "NO"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "4~6m (Suggest install between space 10-20m)"
+                    ],
+                    [
+                        "Certificates",
+                        "CE, ROHS, IP65"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "2-3 Cloudy/Rainy days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83008-4 5000LM",
+                "features": [
+                    [
+                        "LED Power",
+                        "high light efficiency chips 5730/3030"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "6000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "6V 40W mono panel"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2v 40AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "6-8 hours by bright sunlight"
+                    ],
+                    [
+                        "Install Pole diameter",
+                        "60-65mm"
+                    ],
+                    [
+                        "Waterproof",
+                        "IP66"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6000K ~6500K (it can be customized)"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25℃ to 65℃"
+                    ],
+                    [
+                        "Products Size",
+                        "1000*240*155.5mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "LED Lamp",
+                        "200 PCS"
+                    ],
+                    [
+                        "Motion sensor",
+                        "Yes (Microwave Sensor)"
+                    ],
+                    [
+                        "Remote Control",
+                        "NO"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "4~6m (Suggest install between space 10-20m)"
+                    ],
+                    [
+                        "Certificates",
+                        "CE, ROHS, IP65"
+                    ],
+                    [
+                        "Cloudy/Rainy days",
+                        "2-3 Cloudy/Rainy days"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 14,
+        "section": [
+            {
+                "title": "OT-SL-83007-2 6000LM ",
+                "features": [
+                    [
+                        "LED Power",
+                        "High Efficiency Philips LED Chip 3030/120"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "6000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "50w mono"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2V 60AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "8 Hours"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Working Mode",
+                        "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25°-- +65°"
+                    ],
+                    [
+                        "Products Size",
+                        "789*367*63.5MM"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP65"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "6-8M"
+                    ],
+                    [
+                        "Lighting Area",
+                        "100㎡"
+                    ],
+                    [
+                        "Special Function",
+                        "MPPT HI-Tech Faster Charging"
+                    ],
+                    [
+                        "Special Function",
+                        "Whole Night Lighting 3-4 Raining Backup Days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83007-3 12000LM ",
+                "features": [
+                    [
+                        "LED Power",
+                        "High Efficiency Philips LED Chip 3030/180"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "12000LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "75w mono"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2V 100AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "8 Hours"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Working Mode",
+                        "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25°-- +65°"
+                    ],
+                    [
+                        "Products Size",
+                        "1000*430*83.5MM"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP65"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "7-9M"
+                    ],
+                    [
+                        "Lighting Area",
+                        "120㎡"
+                    ],
+                    [
+                        "Special Function",
+                        "MPPT HI-Tech Faster Charging"
+                    ],
+                    [
+                        "Special Function",
+                        "Whole Night Lighting 3-4 Raining Backup Days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83007-4 17200LM ",
+                "features": [
+                    [
+                        "LED Power",
+                        "High Efficiency Philips LED Chip 3030/240"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "17200LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "110w mono"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "3.2V 150AH"
+                    ],
+                    [
+                        "Charging Time",
+                        "8 Hours"
+                    ],
+                    [
+                        "Working Time",
+                        "10-12 Hours/Day"
+                    ],
+                    [
+                        "Working Mode",
+                        "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
+                    ],
+                    [
+                        "Warranty",
+                        "3 Years"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Working Temperature (charge)",
+                        "-25°-- +65°"
+                    ],
+                    [
+                        "Products Size",
+                        "1195*505*83.5MM"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP65"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "9-13M"
+                    ],
+                    [
+                        "Lighting Area",
+                        "120㎡"
+                    ],
+                    [
+                        "Special Function",
+                        "MPPT HI-Tech Faster Charging"
+                    ],
+                    [
+                        "Special Function",
+                        "Whole Night Lighting 3-4 Raining Backup Days"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 15,
+        "section": [
+            {
+                "title": "OT-SL-83006-3 7200LM",
+                "features": [
+                    [
+                        "LED Power",
+                        "60w High Efficiency Philips LED Chip"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "7200LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "60w mono"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "Built-in 320WH"
+                    ],
+                    [
+                        "Charging Time",
+                        "8 Hours"
+                    ],
+                    [
+                        "Working Time",
+                        "≥30 Hours"
+                    ],
+                    [
+                        "Working Mode",
+                        "Steady Lighting"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Products Size",
+                        "1151*406*168mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP65"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "3-6m"
+                    ],
+                    [
+                        "Special Function",
+                        "MPPT HI-Tech Faster Charging"
+                    ],
+                    [
+                        "Special Function",
+                        "Whole Night Lighting 3-4 Raining Backup Days"
+                    ]
+                ]
+            },
+            {
+                "title": "OT-SL-83006-4 9600LM",
+                "features": [
+                    [
+                        "LED Power",
+                        "80w High Efficiency Philips LED Chip"
+                    ],
+                    [
+                        "Luminous Flux",
+                        "9600LM"
+                    ],
+                    [
+                        "Solar Panel",
+                        "80w mono"
+                    ],
+                    [
+                        "High Capacity Lithium Iron Phosphate Battery",
+                        "Built-in 400WH"
+                    ],
+                    [
+                        "Charging Time",
+                        "8 Hours"
+                    ],
+                    [
+                        "Working Time",
+                        "≥30 Hours"
+                    ],
+                    [
+                        "Working Mode",
+                        "Steady Lighting"
+                    ],
+                    [
+                        "Color Temperature",
+                        "6500K"
+                    ],
+                    [
+                        "Warranty",
+                        "2 Years"
+                    ],
+                    [
+                        "Products Size",
+                        "1451*406*168mm"
+                    ],
+                    [
+                        "Lighting material",
+                        "High Class Aluminum"
+                    ],
+                    [
+                        "Ingress Protection",
+                        "IP65"
+                    ],
+                    [
+                        "Recommend Installation Height",
+                        "5-7m"
+                    ],
+                    [
+                        "Special Function",
+                        "MPPT HI-Tech Faster Charging"
+                    ],
+                    [
+                        "Special Function",
+                        "Whole Night Lighting 3-4 Raining Backup Days"
+                    ]
+                ]
+            }
+        ]
     }
 ]

@@ -60,6 +60,7 @@ app.use(function (req, res) {
 });
 
 if (process.argv[2]) {
+  const cssVersion = (Math.random() * 100).toFixed() + "." + (Math.random() * 1000).toFixed() + "." + (Math.random() * 10).toFixed();
   const pages = [
     "about.ejs",
     "contact.ejs",
@@ -69,9 +70,9 @@ if (process.argv[2]) {
     "dist.ejs",
     "installers.ejs",
     "blogs.ejs",
-    "one-blog.ejs",
     "installation.ejs",
     "quotation.ejs",
+    "how-to-become-an-affiliate-marketer-for-obst.ejs",
   ];
   //  "one-product.ejs",
   pages.forEach((page) => {

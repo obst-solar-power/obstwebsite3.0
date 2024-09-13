@@ -34,6 +34,12 @@
             </div>
           </div>
         </div>
+        <% if(product.sections){%>
+        <div class="py-2 flex gap-x-5 max-w-[750px] mx-auto">
+          <div class="border border-black rounded-md border-b-0 px-3 py-1 rounded-b-none">Home</div>
+          <div class="border border-black rounded-md border-b-0 px-3 py-1 rounded-b-none">Home</div>
+        </div>
+        <%}%>
         <div class="max-sm:p-1 mx-auto max-w-[750px] border border-slate-300 rounded-lg">
           <div class="border-b border-b-slate-300">
             <h1 class="font-bold ps-2 border-b-100 inter-var text-2xl py-7"><%=product.title%></h1>

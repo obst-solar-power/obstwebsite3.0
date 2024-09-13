@@ -3,24 +3,28 @@
         "title": "Wall-mounted Energy Storage System",
         "image": "./assets/products/shadows/wall-mounted-10.png",
         "typeSelector": "wall",
-        "url": "/category-wall-mounted-energy-storage-system.html"
+        "url": "/category-wall-mounted-energy-storage-system.html",
+        "background": "./assets/products/products/banner-products.png"
     },
     {
         "title": "All-In-One Stackable Energy Storage System",
         "image": "./assets/products/shadows/stackable-2.png",
         "typeSelector": "all-in-one",
-        "url": "/category-all-In-one-stackable-energy-storage-system.html"
+        "url": "/category-all-In-one-stackable-energy-storage-system.html",
+        "background": "./assets/products/products/stackable-banner.png"
     },
     {
         "title": "Industrial and commercial distribution energy storage cabinet",
         "image": "./assets/products/shadows/industrial.webp",
         "typeSelector": "industrial",
-        "url": "/category-industrial-and-commercial-distribution-energy-storage-cabinet.html"
+        "url": "/category-industrial-and-commercial-distribution-energy-storage-cabinet.html",
+        "background": "./assets/products/products/banner-products.png"
     },
     {
         "title": "Automatic & Non automatic Solar Street and Flood light",
         "image": "./assets/products/shadows/solarlight.webp",
         "typeSelector": "light",
-        "url": "/category-automatic-and-non-automatic-solar-street-and-flood-light.html"
+        "url": "/category-automatic-and-non-automatic-solar-street-and-flood-light.html",
+        "background": "./assets/products/products/solar-banner.png"
     }
 ]

@@ -18,8 +18,10 @@
 
   <body>
     <%- include("./_partials/nav.ejs", {active : "./products.html"}) %>
-
-    <img src="./assets/products/products/banner-products.png" class="w-full h-full object-cover" alt="" srcset="" />
+    <div class="relative">
+      <span class="absolute bg-black/50 top-0 left-0 w-full h-full"></span>
+      <img src="<%= category.background %>" class="w-full aspect-[4/1] object-cover" alt="<%= category.title %>" />
+    </div>
     <div class="bg-[#F9F9FB]">
       <section class="max-w-[1500px] mx-auto py-20 md:w-[90%]">
         <!-- <div class="text-center py-5 space-y-3 text-newPrimarys mb-5">
@@ -28,7 +30,6 @@
         </div> -->
         <div class="space-y-16">
           <div>
-            <h1>Hello world</h1>
             <div class="py-5 space-y-3 text-white mb-5">
               <h1 class="text-3xl text-primary"><%= category.title %></h1>
             </div>

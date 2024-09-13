@@ -20,7 +20,8 @@
     <%- include("./_partials/nav.ejs", {active : "./products.html"}) %>
 
     <div class="relative">
-      <img src="./assets/products/products/banner-products.png" class="w-full aspect-[4/1] object-cover" alt="" srcset="" />
+      <span class="absolute bg-black/50 top-0 left-0 w-full h-full"></span>
+      <img src="./assets/products/products/banner-products.png" class="w-full aspect-[4/1] object-cover" alt="All OBST solar products" srcset="" />
     </div>
 
     <div class="bg-[#F9F9FB]">
@@ -60,10 +61,10 @@
           </div>
           <div>
             <div class="py-5 space-y-3 text-white mb-5">
-              <h1 class="text-3xl text-primary">Automatic & Non automatic Solar Street and Flood light</h1>
+              <h1 class="text-3xl text-primary">Industrial and commercial distribution energy storage cabinet</h1>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">
-              <% products.filter(pro=> pro.type == "light").forEach(product=>{ %>
+              <% products.filter(pro=> pro.type == "industrial").forEach(product=>{ %>
               <div class="bg-white text-center rounded-lg py-5 max-w-[400px] mx-auto space-y-3 w-full" data-aos="fade-up">
                 <img src="<%= product.url %>" alt="" class="h-[300px] mx-auto" />
                 <p class="font-medium text-lg"><%=product.title %></p>
@@ -74,10 +75,10 @@
           </div>
           <div>
             <div class="py-5 space-y-3 text-white mb-5">
-              <h1 class="text-3xl text-primary">Industrial and commercial distribution energy storage cabinet</h1>
+              <h1 class="text-3xl text-primary">Automatic & Non automatic Solar Street and Flood light</h1>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">
-              <% products.filter(pro=> pro.type == "industrial").forEach(product=>{ %>
+              <% products.filter(pro=> pro.type == "light").forEach(product=>{ %>
               <div class="bg-white text-center rounded-lg py-5 max-w-[400px] mx-auto space-y-3 w-full" data-aos="fade-up">
                 <img src="<%= product.url %>" alt="" class="h-[300px] mx-auto" />
                 <p class="font-medium text-lg"><%=product.title %></p>
