@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OBST <%= product.title %></title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <%- include("./_partials/css.ejs") %>
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
   </head>
@@ -34,12 +35,53 @@
             </div>
           </div>
         </div>
-        <% if(product.sections){%>
-        <div class="py-2 flex gap-x-5 max-w-[750px] mx-auto">
-          <div class="border border-black rounded-md border-b-0 px-3 py-1 rounded-b-none">Home</div>
-          <div class="border border-black rounded-md border-b-0 px-3 py-1 rounded-b-none">Home</div>
+        <% if(product.section){%>
+        <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+          <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+            <% product.section.forEach((section, index) => { %>
+            <li class="<% (index+1) == product.section.length ? '' : ' me-2' %>" role="presentation">
+              <button
+                class="inline-block p-4 border-b-2 rounded-t-lg"
+                id="profile-tab"
+                data-tabs-target="#solar<%= index %>"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                <%= section.title %>
+              </button>
+            </li>
+            <%})%>
+          </ul>
         </div>
-        <%}%>
+        <div id="default-tab-content">
+          <% product.section.forEach((section, index)=>{%>
+          <div
+            class="hidden py-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+            id="solar<%= index %>"
+            data-image="<%= section.image %>"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <div class="max-sm:p-1 mx-auto max-w-[750px] border border-slate-300 rounded-lg">
+              <div class="border-b border-b-slate-300">
+                <h1 class="font-bold ps-2 border-b-100 inter-var text-2xl py-7"><%=section.title%></h1>
+              </div>
+              <div class="border-slate-300 [&>div]:border-b">
+                <div class="text-black font-normal py-3 px-3 text-2xl">Main Parameter</div>
+                <%section.features.forEach(ft=>{%>
+                <div class="text-slate-500 flex gap-x-2 justify-between p-3 text-md">
+                  <p class="text-black font-medium"><%= ft[0] %></p>
+                  <p class="font-light flex flex-wrap text-end"><%= ft[1] %></p>
+                </div>
+                <%})%>
+              </div>
+            </div>
+          </div>
+          <%})%>
+        </div>
+        <%}else{%>
         <div class="max-sm:p-1 mx-auto max-w-[750px] border border-slate-300 rounded-lg">
           <div class="border-b border-b-slate-300">
             <h1 class="font-bold ps-2 border-b-100 inter-var text-2xl py-7"><%=product.title%></h1>
@@ -63,6 +105,7 @@
             <%})%> <%}%> <%}%>
           </div>
         </div>
+        <%}%>
       </div>
       <% if(product.download){%>
       <div class="mt-10">
@@ -78,7 +121,10 @@
                 <path style="fill: #e2e5e7" d="M128,0c-17.6,0-32,14.4-32,32v448c0,17.6,14.4,32,32,32h320c17.6,0,32-14.4,32-32V128L352,0H128z" />
                 <path style="fill: #b0b7bd" d="M384,128h96L352,0v96C352,113.6,366.4,128,384,128z" />
                 <polygon style="fill: #cad1d8" points="480,224 384,128 480,128 " />
-                <path style="fill: #f15642" d="M416,416c0,8.8-7.2,16-16,16H48c-8.8,0-16-7.2-16-16V256c0-8.8,7.2-16,16-16h352c8.8,0,16,7.2,16,16  V416z" />
+                <path
+                  style="fill: #f15642"
+                  d="M416,416c0,8.8-7.2,16-16,16H48c-8.8,0-16-7.2-16-16V256c0-8.8,7.2-16,16-16h352c8.8,0,16,7.2,16,16  V416z"
+                />
                 <g>
                   <path
                     style="fill: #ffffff"
@@ -118,9 +164,37 @@
     <!-- This is the footer element -->
     <%- include("./_partials/footer.ejs") %>
     <!-- The end of the footer# -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script>
-      Array.from(document.getElementsByClassName("product-images")).map((image) => {
+      const tabsElement = document.getElementById("default-tab");
+      const tabsTrigger = Array.from(tabsElement.children);
+      const tabsContent = document.getElementById("default-tab-content").children;
+
+      const tabElements = tabsTrigger.map((el, i) => ({
+        id: "solar" + i,
+        triggerEl: el,
+        targetEl: tabsContent[i],
+      }));
+      const options = {
+        defaultTabId: "OBST0",
+        activeClasses: "text-blue-600 hover:text-blue-600 dark:text-blue-500 dark:hover:text-blue-400 border-blue-600 dark:border-blue-500",
+        inactiveClasses:
+          "text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300",
+        onShow: (e) => {
+          const image = e._activeTab.targetEl.getAttribute("data-image");
+          if (image) {
+            document.getElementById("showImage").setAttribute("src", image);
+          }
+        },
+      };
+      const instanceOptions = {
+        id: "default-tab",
+        override: true,
+      };
+      const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
+    </script>
+    <script>
+      Array.from(document.querySelectorAll(".product-images img")).map((image) => {
         image.addEventListener("click", function (e) {
           document.getElementById("showImage").setAttribute("src", e.target.getAttribute("src"));
         });
