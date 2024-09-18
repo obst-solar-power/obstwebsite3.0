@@ -57,13 +57,7 @@
         </div>
         <div id="default-tab-content">
           <% product.section.forEach((section, index)=>{%>
-          <div
-            class="hidden py-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-            id="solar<%= index %>"
-            data-image="<%= section.image %>"
-            role="tabpanel"
-            aria-labelledby="profile-tab"
-          >
+          <div class="hidden py-4 rounded-lg" id="solar<%= index %>" data-image="<%= section.image %>" role="tabpanel" aria-labelledby="profile-tab">
             <div class="max-sm:p-1 mx-auto max-w-[750px] border border-slate-300 rounded-lg">
               <div class="border-b border-b-slate-300">
                 <h1 class="font-bold ps-2 border-b-100 inter-var text-2xl py-7"><%=section.title%></h1>
@@ -121,10 +115,7 @@
                 <path style="fill: #e2e5e7" d="M128,0c-17.6,0-32,14.4-32,32v448c0,17.6,14.4,32,32,32h320c17.6,0,32-14.4,32-32V128L352,0H128z" />
                 <path style="fill: #b0b7bd" d="M384,128h96L352,0v96C352,113.6,366.4,128,384,128z" />
                 <polygon style="fill: #cad1d8" points="480,224 384,128 480,128 " />
-                <path
-                  style="fill: #f15642"
-                  d="M416,416c0,8.8-7.2,16-16,16H48c-8.8,0-16-7.2-16-16V256c0-8.8,7.2-16,16-16h352c8.8,0,16,7.2,16,16  V416z"
-                />
+                <path style="fill: #f15642" d="M416,416c0,8.8-7.2,16-16,16H48c-8.8,0-16-7.2-16-16V256c0-8.8,7.2-16,16-16h352c8.8,0,16,7.2,16,16  V416z" />
                 <g>
                   <path
                     style="fill: #ffffff"

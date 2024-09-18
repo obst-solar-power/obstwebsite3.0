@@ -37,7 +37,9 @@ app.use(function (req, res) {
       );
     }
     if (req.url.startsWith("/category-")) {
-      const category = categories.find((cat) => cat.url == req.url);
+      const category = categories.find((cat) => {
+        return cat.url == req.url;
+      });
       return ejs.renderFile(
         "./views/one-category.ejs",
         {
@@ -107,7 +109,8 @@ if (process.argv[2]) {
   });
 
   console.log("completed building...");
+  process.exit(0);
 }
 
-const PORT = 3000;
+const PORT = 4000;
 app.listen(PORT, console.log("server running..."));
