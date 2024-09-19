@@ -24,7 +24,7 @@
                 alt="an image of OBST <%= product.title %>"
               />
             </div>
-            <div class="max-md:flex max-md:pt-10 max-md:justify-between shrink-0 mg:space-y-4">
+            <div id="subImages" class="max-md:flex max-md:pt-10 max-md:justify-between shrink-0 mg:space-y-4">
               <% if(product.images?.length){product.images.forEach(image=>{%>
               <div
                 class="product-images max-md:w-1/6 max-md:bg-gray-100/40 md:h-1/6 aspect-square p-2 cursor-pointer hover:bg-gray-200 duration-300 rounded-md"
@@ -57,7 +57,14 @@
         </div>
         <div id="default-tab-content">
           <% product.section.forEach((section, index)=>{%>
-          <div class="hidden py-4 rounded-lg" id="solar<%= index %>" data-image="<%= section.image %>" role="tabpanel" aria-labelledby="profile-tab">
+          <div
+            class="hidden py-4 rounded-lg"
+            id="solar<%= index %>"
+            data-subImages="<%= JSON.stringify(section.images || []) %>"
+            data-image="<%= section.image %>"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
             <div class="max-sm:p-1 mx-auto max-w-[750px] border border-slate-300 rounded-lg">
               <div class="border-b border-b-slate-300">
                 <h1 class="font-bold ps-2 border-b-100 inter-var text-2xl py-7"><%=section.title%></h1>
@@ -175,6 +182,12 @@
           const image = e._activeTab.targetEl.getAttribute("data-image");
           if (image) {
             document.getElementById("showImage").setAttribute("src", image);
+            const subImages = JSON.parse(e._activeTab.targetEl.getAttribute("data-subImages"))
+              ?.map((img) => {
+                return `<div class="product-images max-md:w-1/6 max-md:bg-gray-100/40 md:h-1/6 aspect-square p-2 cursor-pointer hover:bg-gray-200 duration-300 rounded-md"><img src="${img}" alt="" class="w-full aspect-square" /></div>`;
+              })
+              .join(" ");
+            document.getElementById("subImages").innerHTML = subImages;
           }
         },
       };
@@ -185,11 +198,16 @@
       const tabs = new Tabs(tabsElement, tabElements, options, instanceOptions);
     </script>
     <script>
-      Array.from(document.querySelectorAll(".product-images img")).map((image) => {
-        image.addEventListener("click", function (e) {
+      document.querySelector("#subImages").addEventListener("click", function (e) {
+        if (e.target.tagName == "IMG") {
           document.getElementById("showImage").setAttribute("src", e.target.getAttribute("src"));
-        });
+        }
       });
+      // Array.from(document.querySelectorAll("#subImages img")).map((image) => {
+      //   image.addEventListener("click", function (e) {
+      //     document.getElementById("showImage").setAttribute("src", e.target.getAttribute("src"));
+      //   });
+      // });
     </script>
   </body>
 </html>
