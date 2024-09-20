@@ -5,11 +5,7 @@
     "homeProducts": true,
     "type": "all-in-one",
     "title": "3KW/5KWh UPS All-in-one C",
-    "images": [
-      "./assets/products/products/ups-side.png",
-      "./assets/products/products/ups-face.png",
-      "./assets/products/products/ups-back.png"
-    ],
+    "images": ["./assets/products/products/ups-side.png", "./assets/products/products/ups-face.png", "./assets/products/products/ups-back.png"],
     "break": 8,
     "url": "./assets/products/products/ups-side.png",
     "features": []
@@ -31,64 +27,22 @@
     "price": 1000,
     "features": {
       "inverter_Parameters": [
-        [
-          "Max PV Power",
-          "6000W"
-        ],
-        [
-          "Max PV input voltage",
-          "450V"
-        ],
-        [
-          "MPPT voltage range",
-          "120~430V"
-        ],
-        [
-          "Max PV charging current",
-          "100A"
-        ],
-        [
-          "AC rated input-power",
-          "5000W"
-        ],
-        [
-          "input Voltage / Current",
-          "210~240V/20A"
-        ],
-        [
-          "AC rated output power / Current ",
-          "5000W"
-        ],
-        [
-          "AC Output Voltage / Current",
-          "210~240V /20A"
-        ],
-        [
-          "Output frequencies",
-          "50 ~ 60Hz"
-        ],
-        [
-          "efficiency",
-          "93%"
-        ]
+        ["Max PV Power", "6000W"],
+        ["Max PV input voltage", "450V"],
+        ["MPPT voltage range", "120~430V"],
+        ["Max PV charging current", "100A"],
+        ["AC rated input-power", "5000W"],
+        ["input Voltage / Current", "210~240V/20A"],
+        ["AC rated output power / Current ", "5000W"],
+        ["AC Output Voltage / Current", "210~240V /20A"],
+        ["Output frequencies", "50 ~ 60Hz"],
+        ["efficiency", "93%"]
       ],
       "Battery_Parameters": [
-        [
-          "Battery type",
-          "LFP"
-        ],
-        [
-          "Rated Power",
-          "5KWh*2"
-        ],
-        [
-          "Voltage range",
-          "42 ~ 58.6V"
-        ],
-        [
-          "Max charging discharging current",
-          "50A / 100A"
-        ]
+        ["Battery type", "LFP"],
+        ["Rated Power", "5KWh*2"],
+        ["Voltage range", "42 ~ 58.6V"],
+        ["Max charging discharging current", "50A / 100A"]
       ]
     }
   },
@@ -101,71 +55,26 @@
     "break": 9,
     "url": "./assets/products/products/15kw+stackable+battery.png",
     "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
-    "images": [
-      "./assets/products/products/15kw+stackable+battery.png",
-      "./assets/products/products/15kw+stackable+back.png"
-    ],
+    "images": ["./assets/products/products/15kw+stackable+battery.png", "./assets/products/products/15kw+stackable+back.png"],
     "price": 1000,
     "features": {
       "inverter_Parameters": [
-        [
-          "Max PV Power",
-          "6000W"
-        ],
-        [
-          "Max PV input voltage",
-          "450V"
-        ],
-        [
-          "MPPT voltage range",
-          "120~430V"
-        ],
-        [
-          "Max PV charging current",
-          "100A"
-        ],
-        [
-          "AC rated input-power",
-          "5000W"
-        ],
-        [
-          "input Voltage / Current",
-          "210~240V/20A"
-        ],
-        [
-          "AC rated output power / Current ",
-          "5000W"
-        ],
-        [
-          "AC Output Voltage / Current",
-          "210~240V /20A"
-        ],
-        [
-          "Output frequencies",
-          "50 ~ 60Hz"
-        ],
-        [
-          "efficiency",
-          "93%"
-        ]
+        ["Max PV Power", "6000W"],
+        ["Max PV input voltage", "450V"],
+        ["MPPT voltage range", "120~430V"],
+        ["Max PV charging current", "100A"],
+        ["AC rated input-power", "5000W"],
+        ["input Voltage / Current", "210~240V/20A"],
+        ["AC rated output power / Current ", "5000W"],
+        ["AC Output Voltage / Current", "210~240V /20A"],
+        ["Output frequencies", "50 ~ 60Hz"],
+        ["efficiency", "93%"]
       ],
       "Battery_Parameters": [
-        [
-          "Rated Power",
-          "5KWh*3"
-        ],
-        [
-          "Battery type",
-          "LFP"
-        ],
-        [
-          "Voltage range",
-          "42 ~ 58.6V"
-        ],
-        [
-          "Max charging discharging current",
-          "50A / 100A"
-        ]
+        ["Rated Power", "5KWh*3"],
+        ["Battery type", "LFP"],
+        ["Voltage range", "42 ~ 58.6V"],
+        ["Max charging discharging current", "50A / 100A"]
       ]
     }
   },
@@ -185,78 +94,24 @@
     ],
     "price": 1000,
     "features": [
-      [
-        "Rated Power",
-        "10.44Kwh"
-      ],
-      [
-        "Cell Type",
-        "LFP"
-      ],
-      [
-        "Cell Quantity",
-        "32"
-      ],
-      [
-        "Rated Voltage",
-        "51.2V"
-      ],
-      [
-        "Voltage Range",
-        "44.8~57.6V"
-      ],
-      [
-        "Charging Current",
-        "50A"
-      ],
-      [
-        "Discharging Current",
-        "100A"
-      ],
-      [
-        "Dimensions",
-        "1100*480*160mm"
-      ],
-      [
-        "Weight",
-        "95kg"
-      ],
-      [
-        "Communication Protocol",
-        "CAN 485"
-      ],
-      [
-        "Protection Level",
-        "IP65"
-      ],
-      [
-        "Working Temperature",
-        "-10 ~ 55C"
-      ],
-      [
-        "Relative humidity",
-        "5% ~ 95%"
-      ],
-      [
-        "Cooling method",
-        "Natural cooling"
-      ],
-      [
-        "Installation model",
-        "Ground/Wall-Mounted"
-      ],
-      [
-        "Design Life",
-        "10 years"
-      ],
-      [
-        "Certificate",
-        "IEC62619 CE RHOS MDS"
-      ],
-      [
-        "Matched Inverter",
-        "SMA/Growatt/Deye, etc"
-      ]
+      ["Rated Power", "10.44Kwh"],
+      ["Cell Type", "LFP"],
+      ["Cell Quantity", "32"],
+      ["Rated Voltage", "51.2V"],
+      ["Voltage Range", "44.8~57.6V"],
+      ["Charging Current", "50A"],
+      ["Discharging Current", "100A"],
+      ["Dimensions", "1100*480*160mm"],
+      ["Weight", "95kg"],
+      ["Communication Protocol", "CAN 485"],
+      ["Protection Level", "IP65"],
+      ["Working Temperature", "-10 ~ 55C"],
+      ["Relative humidity", "5% ~ 95%"],
+      ["Cooling method", "Natural cooling"],
+      ["Installation model", "Ground/Wall-Mounted"],
+      ["Design Life", "10 years"],
+      ["Certificate", "IEC62619 CE RHOS MDS"],
+      ["Matched Inverter", "SMA/Growatt/Deye, etc"]
     ]
   },
   {
@@ -275,82 +130,25 @@
     ],
     "price": 1000,
     "features": [
-      [
-        "Rated Power",
-        "5.22Kwh"
-      ],
-      [
-        "Cell Type",
-        "LFP"
-      ],
-      [
-        "Cell Quantity",
-        "16"
-      ],
-      [
-        "Rated Voltage",
-        "51.2V"
-      ],
-      [
-        "Voltage Range",
-        "44.8~57.6V"
-      ],
-      [
-        "Charging Current",
-        "50A"
-      ],
-      [
-        "Discharging Current",
-        "100A"
-      ],
-      [
-        "Dimensions",
-        "680*450*160mm"
-      ],
-      [
-        "Weight",
-        "49kg"
-      ],
-      [
-        "Communication Protocol",
-        "CAN 485"
-      ],
-      [
-        "Protection Level",
-        "IP65"
-      ],
-      [
-        "Working Temperature",
-        "-10 ~ 55C"
-      ],
-      [
-        "Relative humidity",
-        "5% ~ 95%"
-      ],
-      [
-        "Cooling method",
-        "Natural cooling"
-      ],
-      [
-        "Installation model",
-        "Ground/Wall-Mounted"
-      ],
-      [
-        "Design Life",
-        "10 years"
-      ],
-      [
-        "Certificate",
-        "IEC62619 CE RHOS MDS"
-      ],
-      [
-        "Matched Inverter",
-        "SMA/Growatt/Deye, etc"
-      ],
-      [
-        "Load",
-        "Air Conditioning, Refrigerator, fan, TV, water, heater etc."
-      ]
+      ["Rated Power", "5.22Kwh"],
+      ["Cell Type", "LFP"],
+      ["Cell Quantity", "16"],
+      ["Rated Voltage", "51.2V"],
+      ["Voltage Range", "44.8~57.6V"],
+      ["Charging Current", "50A"],
+      ["Discharging Current", "100A"],
+      ["Dimensions", "680*450*160mm"],
+      ["Weight", "49kg"],
+      ["Communication Protocol", "CAN 485"],
+      ["Protection Level", "IP65"],
+      ["Working Temperature", "-10 ~ 55C"],
+      ["Relative humidity", "5% ~ 95%"],
+      ["Cooling method", "Natural cooling"],
+      ["Installation model", "Ground/Wall-Mounted"],
+      ["Design Life", "10 years"],
+      ["Certificate", "IEC62619 CE RHOS MDS"],
+      ["Matched Inverter", "SMA/Growatt/Deye, etc"],
+      ["Load", "Air Conditioning, Refrigerator, fan, TV, water, heater etc."]
     ]
   },
   {
@@ -365,66 +163,21 @@
     "images": [],
     "price": 1000,
     "features": [
-      [
-        "Input Voltage Waveform",
-        "Sinusoidal (utility or generator)"
-      ],
-      [
-        "Nominal Input Voltage",
-        "230Vac"
-      ],
-      [
-        "Low Loss Voltage",
-        "170Vac+- 7V (UPS); 90Vac+- 7V (Appliances)"
-      ],
-      [
-        "Low Loss Return Voltage",
-        "180Vac+- 7V (UPS); 100Vac+- 7V (Appliances)"
-      ],
-      [
-        "High Loss Voltage",
-        "280Vac+- 7V "
-      ],
-      [
-        "High Loss Return Voltage",
-        "270Vac+- 7V "
-      ],
-      [
-        "Max AC Input Voltage",
-        "300Vac"
-      ],
-      [
-        "Nominal Input Voltage",
-        "50Hz / 60Hz (Auto detection)"
-      ],
-      [
-        "Low Loss Frequency",
-        "40Hz +- 1Hz"
-      ],
-      [
-        "Low Loss Return Frequency",
-        "42Hz +- 1Hz"
-      ],
-      [
-        "High Loss Frequency",
-        "65Hz +- 1Hz"
-      ],
-      [
-        "High Loss Return Frequency",
-        "63Hz +- 1Hz"
-      ],
-      [
-        "Output Short Circuit Protection",
-        "Circuit Breaker"
-      ],
-      [
-        "Efficiency (Line Mode)",
-        "> 95% (Rated R load, battery full charged)"
-      ],
-      [
-        "Transfer Time",
-        "10ms typical, 20ms Max@ Single <30ms @ parallel"
-      ]
+      ["Input Voltage Waveform", "Sinusoidal (utility or generator)"],
+      ["Nominal Input Voltage", "230Vac"],
+      ["Low Loss Voltage", "170Vac+- 7V (UPS); 90Vac+- 7V (Appliances)"],
+      ["Low Loss Return Voltage", "180Vac+- 7V (UPS); 100Vac+- 7V (Appliances)"],
+      ["High Loss Voltage", "280Vac+- 7V "],
+      ["High Loss Return Voltage", "270Vac+- 7V "],
+      ["Max AC Input Voltage", "300Vac"],
+      ["Nominal Input Voltage", "50Hz / 60Hz (Auto detection)"],
+      ["Low Loss Frequency", "40Hz +- 1Hz"],
+      ["Low Loss Return Frequency", "42Hz +- 1Hz"],
+      ["High Loss Frequency", "65Hz +- 1Hz"],
+      ["High Loss Return Frequency", "63Hz +- 1Hz"],
+      ["Output Short Circuit Protection", "Circuit Breaker"],
+      ["Efficiency (Line Mode)", "> 95% (Rated R load, battery full charged)"],
+      ["Transfer Time", "10ms typical, 20ms Max@ Single <30ms @ parallel"]
     ]
   },
   {
@@ -439,38 +192,14 @@
     "images": [],
     "price": 1000,
     "features": [
-      [
-        "Maximum Power (Pmax)",
-        "550W"
-      ],
-      [
-        "Module Efficiency  (%)",
-        "21.30%"
-      ],
-      [
-        "Rated Voltage",
-        "51.2V"
-      ],
-      [
-        "Open Circuit Voltage  (Voc)",
-        "49.95V"
-      ],
-      [
-        "Short Circuit Current  (Isc)",
-        "14.05A"
-      ],
-      [
-        "Voltage at Max. Power  (Pmp)",
-        "41.97V"
-      ],
-      [
-        "Current at Max. Mower  (Imp)",
-        "13.11A"
-      ],
-      [
-        "Power Tolerance",
-        ""
-      ]
+      ["Maximum Power (Pmax)", "550W"],
+      ["Module Efficiency  (%)", "21.30%"],
+      ["Rated Voltage", "51.2V"],
+      ["Open Circuit Voltage  (Voc)", "49.95V"],
+      ["Short Circuit Current  (Isc)", "14.05A"],
+      ["Voltage at Max. Power  (Pmp)", "41.97V"],
+      ["Current at Max. Mower  (Imp)", "13.11A"],
+      ["Power Tolerance", ""]
     ]
   },
   {
@@ -485,120 +214,39 @@
     "price": 1000,
     "features": {
       "Energy storage parameters": [
-        [
-          "Rated energy",
-          "115.2kWh"
-        ],
-        [
-          "Rated Capacity",
-          "150Ah"
-        ],
-        [
-          "Rated Voltage",
-          "768Vdc"
-        ],
-        [
-          "Battery voltage range",
-          "672~864Vdc"
-        ],
-        [
-          "discharge current",
-          "65A"
-        ],
-        [
-          "Max. charge/discharge current",
-          "88A"
-        ],
-        [
-          "Max. charge/discharge current",
-          "88A"
-        ]
+        ["Rated energy", "115.2kWh"],
+        ["Rated Capacity", "150Ah"],
+        ["Rated Voltage", "768Vdc"],
+        ["Battery voltage range", "672~864Vdc"],
+        ["discharge current", "65A"],
+        ["Max. charge/discharge current", "88A"],
+        ["Max. charge/discharge current", "88A"]
       ],
       "PCS parameters": [
-        [
-          "Rated output power",
-          "50kW"
-        ],
-        [
-          "DC side operating voltage range",
-          "580~1000 Vdc"
-        ],
-        [
-          "Max current on the flow side",
-          "88A"
-        ],
-        [
-          "AC side rated voltage",
-          "400Vac @ 3L/N/PE"
-        ],
-        [
-          "AC side working Voltage range",
-          "300 ~ 440Vac"
-        ],
-        [
-          "Rated grid frequency",
-          "59Hz/60Hz"
-        ],
-        [
-          "Current total harmonic distortion",
-          "<3%@at rated power"
-        ],
-        [
-          "Total harmonic distortion",
-          "<3%@at rated power & linear load"
-        ],
-        [
-          "Max. efficiency",
-          "98.6%"
-        ]
+        ["Rated output power", "50kW"],
+        ["DC side operating voltage range", "580~1000 Vdc"],
+        ["Max current on the flow side", "88A"],
+        ["AC side rated voltage", "400Vac @ 3L/N/PE"],
+        ["AC side working Voltage range", "300 ~ 440Vac"],
+        ["Rated grid frequency", "59Hz/60Hz"],
+        ["Current total harmonic distortion", "<3%@at rated power"],
+        ["Total harmonic distortion", "<3%@at rated power & linear load"],
+        ["Max. efficiency", "98.6%"]
       ],
       "Environmental parameters": [
-        [
-          "Operating temperature",
-          "-20C ~ 50C (degree)"
-        ],
-        [
-          "Storage temperature",
-          "-20C ~ 45C (degree)"
-        ],
-        [
-          "Relative humidity",
-          " 5 ~ 95% No condensation"
-        ],
-        [
-          "Altitude",
-          "2000m (derate above 2000 meters)"
-        ],
-        [
-          "Heat dissipation method",
-          "Smart air conditioners, smart fans"
-        ]
+        ["Operating temperature", "-20C ~ 50C (degree)"],
+        ["Storage temperature", "-20C ~ 45C (degree)"],
+        ["Relative humidity", " 5 ~ 95% No condensation"],
+        ["Altitude", "2000m (derate above 2000 meters)"],
+        ["Heat dissipation method", "Smart air conditioners, smart fans"]
       ],
       "Other Parameters": [
-        [
-          "Size(W*D*H)",
-          "Machine 1150x1100x2050mm <br> with packaging 1210x1160x2110mm"
-        ],
-        [
-          "Weight",
-          "Net weight 1300kg, gross weight with packaging 1330kg"
-        ],
-        [
-          "Protection level",
-          "IP54"
-        ],
-        [
-          "Communication method",
-          "485, Ethernet 4G"
-        ],
-        [
-          "Certification",
-          "UN38.3, IEC62619, EMC"
-        ],
-        [
-          "Loads",
-          "UN38.3, IEC62619, EMC"
-        ]
+        ["Size(W*D*H)", "Machine 1150x1100x2050mm <br> with packaging 1210x1160x2110mm"],
+        ["Weight", "Net weight 1300kg, gross weight with packaging 1330kg"],
+        ["Protection level", "IP54"],
+        ["Communication method", "485, Ethernet 4G"],
+        ["Certification", "UN38.3, IEC62619, EMC"],
+        ["Loads", "UN38.3, IEC62619, EMC"]
       ]
     }
   },
@@ -614,116 +262,38 @@
         "title": "OT-SL-86001-200W A/B",
         "image": "./assets/products/products/86001-200W-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips SMD2835"
-          ],
-          [
-            "Luminous Flux",
-            "1800LM"
-          ],
-          [
-            "Solar Panel",
-            "6V ()W"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "LiFePO4 30Ah"
-          ],
-          [
-            "Discharging Time",
-            "18 HOURS"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "308*243*80mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "5-6m"
-          ],
-          [
-            "Lighting Area",
-            "200㎡"
-          ],
-          [
-            "LED Lamp",
-            "140PCS"
-          ],
-          [
-            "Function",
-            "Intelligent light control+Remote control"
-          ],
-          [
-            "Product configuration",
-            "Waterproof cable/u-frame/remote control/screw"
-          ]
+          ["LED Power", "high light efficiency chips SMD2835"],
+          ["Luminous Flux", "1800LM"],
+          ["Solar Panel", "6V ()W"],
+          ["High Capacity Lithium Iron Phosphate Battery", "LiFePO4 30Ah"],
+          ["Discharging Time", "18 HOURS"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "308*243*80mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "5-6m"],
+          ["Lighting Area", "200㎡"],
+          ["LED Lamp", "140PCS"],
+          ["Function", "Intelligent light control+Remote control"],
+          ["Product configuration", "Waterproof cable/u-frame/remote control/screw"]
         ]
       },
       {
         "title": "OT-SL-86001-150W A/B",
         "image": "./assets/products/products/86001-150W-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips SMD2835"
-          ],
-          [
-            "Luminous Flux",
-            "1000LM"
-          ],
-          [
-            "Solar Panel",
-            "6V"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "LiFePO4 18AH"
-          ],
-          [
-            "Discharge Time",
-            "18 Hours"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "275*210*80mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "4-5m"
-          ],
-          [
-            "Lighting Area",
-            "150㎡"
-          ],
-          [
-            "LED Lamp",
-            "96PCS"
-          ],
-          [
-            "Function",
-            "Intelligent light control+Remote control"
-          ],
-          [
-            "Product configuration",
-            "Waterproof cable/u-frame/remote control/screw"
-          ]
+          ["LED Power", "high light efficiency chips SMD2835"],
+          ["Luminous Flux", "1000LM"],
+          ["Solar Panel", "6V"],
+          ["High Capacity Lithium Iron Phosphate Battery", "LiFePO4 18AH"],
+          ["Discharge Time", "18 Hours"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "275*210*80mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "4-5m"],
+          ["Lighting Area", "150㎡"],
+          ["LED Lamp", "96PCS"],
+          ["Function", "Intelligent light control+Remote control"],
+          ["Product configuration", "Waterproof cable/u-frame/remote control/screw"]
         ]
       }
     ]
@@ -740,296 +310,92 @@
         "title": "OT-SL-83009-2 (3600LM)",
         "image": "./assets/products/products/OT-SL-83009-2-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 3030"
-          ],
-          [
-            "Luminous Flux",
-            "3600LM"
-          ],
-          [
-            "Solar Panel",
-            "18V 40W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 50AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "690*370*169"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "4~6m"
-          ],
-          [
-            "Lighting Area",
-            "120㎡"
-          ],
-          [
-            "LED Lamp",
-            "100PCS"
-          ],
-          [
-            "Working Mode",
-            "Light Inductor + Body Inductor"
-          ],
-          [
-            "Ingress Protection",
-            "IP67"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 3030"],
+          ["Luminous Flux", "3600LM"],
+          ["Solar Panel", "18V 40W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 50AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "690*370*169"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "4~6m"],
+          ["Lighting Area", "120㎡"],
+          ["LED Lamp", "100PCS"],
+          ["Working Mode", "Light Inductor + Body Inductor"],
+          ["Ingress Protection", "IP67"],
+          ["Cloudy/Rainy days", "3 Cloudy/Rainy days"]
         ]
       },
       {
         "title": "OT-SL-83009-3 (5400LM)",
         "image": "./assets/products/products/OT-SL-83009-3-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 3030"
-          ],
-          [
-            "Luminous Flux",
-            "4500-5400LM"
-          ],
-          [
-            "Solar Panel",
-            "18V 60W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 60AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "840*370*169"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "5-7m"
-          ],
-          [
-            "Lighting Area",
-            "160㎡"
-          ],
-          [
-            "LED Lamp",
-            "150PCS"
-          ],
-          [
-            "Working Mode",
-            "Light Inductor + Body Inductor"
-          ],
-          [
-            "Ingress Protection",
-            "IP67"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 3030"],
+          ["Luminous Flux", "4500-5400LM"],
+          ["Solar Panel", "18V 60W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 60AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "840*370*169"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "5-7m"],
+          ["Lighting Area", "160㎡"],
+          ["LED Lamp", "150PCS"],
+          ["Working Mode", "Light Inductor + Body Inductor"],
+          ["Ingress Protection", "IP67"],
+          ["Cloudy/Rainy days", "3 Cloudy/Rainy days"]
         ]
       },
       {
         "title": "OT-SL-83009-4 (7200LM)",
         "image": "./assets/products/products/OT-SL-83009-4-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 3030"
-          ],
-          [
-            "Luminous Flux",
-            "7200LM"
-          ],
-          [
-            "Solar Panel",
-            "18V 80W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 80AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "1010*370*169"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "6-8m"
-          ],
-          [
-            "Lighting Area",
-            "200㎡"
-          ],
-          [
-            "LED Lamp",
-            "200PCS"
-          ],
-          [
-            "Working Mode",
-            "Light Inductor + Body Inductor"
-          ],
-          [
-            "Ingress Protection",
-            "IP67"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 3030"],
+          ["Luminous Flux", "7200LM"],
+          ["Solar Panel", "18V 80W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 80AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "1010*370*169"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "6-8m"],
+          ["Lighting Area", "200㎡"],
+          ["LED Lamp", "200PCS"],
+          ["Working Mode", "Light Inductor + Body Inductor"],
+          ["Ingress Protection", "IP67"],
+          ["Cloudy/Rainy days", "3 Cloudy/Rainy days"]
         ]
       },
       {
         "title": "OT-SL-83009-5 (10800LM)",
         "image": "./assets/products/products/OT-SL-83009-5-face.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 3030"
-          ],
-          [
-            "Luminous Flux",
-            "10800LM"
-          ],
-          [
-            "Solar Panel",
-            "18V 100W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 100AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "1170*400*169"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Recommend Installation Height",
-            "7-9m"
-          ],
-          [
-            "Lighting Area",
-            "220㎡"
-          ],
-          [
-            "LED Lamp",
-            "250PCS"
-          ],
-          [
-            "Working Mode",
-            "Light Inductor + Body Inductor"
-          ],
-          [
-            "Ingress Protection",
-            "IP67"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "5 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 3030"],
+          ["Luminous Flux", "10800LM"],
+          ["Solar Panel", "18V 100W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 100AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "1170*400*169"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Recommend Installation Height", "7-9m"],
+          ["Lighting Area", "220㎡"],
+          ["LED Lamp", "250PCS"],
+          ["Working Mode", "Light Inductor + Body Inductor"],
+          ["Ingress Protection", "IP67"],
+          ["Cloudy/Rainy days", "5 Cloudy/Rainy days"]
         ]
       }
     ]
@@ -1046,234 +412,72 @@
         "title": "OT-SL-83008-2 4000LM",
         "image": "./assets/products/products/ot-sl-83008-2.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 5730/3030"
-          ],
-          [
-            "Luminous Flux",
-            "4000LM"
-          ],
-          [
-            "Solar Panel",
-            "6V 25W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 25AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Install Pole diameter",
-            "60-65mm"
-          ],
-          [
-            "Waterproof",
-            "IP66"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Color Temperature",
-            "6000K ~6500K (it can be customized)"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "640*240*155.5mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "LED Lamp",
-            "100 PCS"
-          ],
-          [
-            "Motion sensor",
-            "Yes (Microwave Sensor)"
-          ],
-          [
-            "Remote Control",
-            "NO"
-          ],
-          [
-            "Recommend Installation Height",
-            "4~5m (Suggest install between space 10-20m)"
-          ],
-          [
-            "Certificates",
-            "CE, ROHS, IP65"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "2-3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 5730/3030"],
+          ["Luminous Flux", "4000LM"],
+          ["Solar Panel", "6V 25W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 25AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Install Pole diameter", "60-65mm"],
+          ["Waterproof", "IP66"],
+          ["Warranty", "2 Years"],
+          ["Color Temperature", "6000K ~6500K (it can be customized)"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "640*240*155.5mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["LED Lamp", "100 PCS"],
+          ["Motion sensor", "Yes (Microwave Sensor)"],
+          ["Remote Control", "NO"],
+          ["Recommend Installation Height", "4~5m (Suggest install between space 10-20m)"],
+          ["Certificates", "CE, ROHS, IP65"],
+          ["Cloudy/Rainy days", "2-3 Cloudy/Rainy days"]
         ]
       },
       {
         "title": "OT-SL-83008-3 5000LM",
         "image": "./assets/products/products/ot-sl-83008-3.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 5730/3030"
-          ],
-          [
-            "Luminous Flux",
-            "5000LM"
-          ],
-          [
-            "Solar Panel",
-            "6V 35W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 35AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Install Pole diameter",
-            "60-65mm"
-          ],
-          [
-            "Waterproof",
-            "IP66"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Color Temperature",
-            "6000K ~6500K (it can be customized)"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "820*240*155.5mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "LED Lamp",
-            "150 PCS"
-          ],
-          [
-            "Motion sensor",
-            "Yes (Microwave Sensor)"
-          ],
-          [
-            "Remote Control",
-            "NO"
-          ],
-          [
-            "Recommend Installation Height",
-            "4~6m (Suggest install between space 10-20m)"
-          ],
-          [
-            "Certificates",
-            "CE, ROHS, IP65"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "2-3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 5730/3030"],
+          ["Luminous Flux", "5000LM"],
+          ["Solar Panel", "6V 35W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 35AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Install Pole diameter", "60-65mm"],
+          ["Waterproof", "IP66"],
+          ["Warranty", "2 Years"],
+          ["Color Temperature", "6000K ~6500K (it can be customized)"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "820*240*155.5mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["LED Lamp", "150 PCS"],
+          ["Motion sensor", "Yes (Microwave Sensor)"],
+          ["Remote Control", "NO"],
+          ["Recommend Installation Height", "4~6m (Suggest install between space 10-20m)"],
+          ["Certificates", "CE, ROHS, IP65"],
+          ["Cloudy/Rainy days", "2-3 Cloudy/Rainy days"]
         ]
       },
       {
         "title": "OT-SL-83008-4 6000LM",
         "image": "./assets/products/products/ot-sl-83008-4.png",
         "features": [
-          [
-            "LED Power",
-            "high light efficiency chips 5730/3030"
-          ],
-          [
-            "Luminous Flux",
-            "6000LM"
-          ],
-          [
-            "Solar Panel",
-            "6V 40W mono panel"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2v 40AH"
-          ],
-          [
-            "Charging Time",
-            "6-8 hours by bright sunlight"
-          ],
-          [
-            "Install Pole diameter",
-            "60-65mm"
-          ],
-          [
-            "Waterproof",
-            "IP66"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Color Temperature",
-            "6000K ~6500K (it can be customized)"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25℃ to 65℃"
-          ],
-          [
-            "Products Size",
-            "1000*240*155.5mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "LED Lamp",
-            "200 PCS"
-          ],
-          [
-            "Motion sensor",
-            "Yes (Microwave Sensor)"
-          ],
-          [
-            "Remote Control",
-            "NO"
-          ],
-          [
-            "Recommend Installation Height",
-            "4~6m (Suggest install between space 10-20m)"
-          ],
-          [
-            "Certificates",
-            "CE, ROHS, IP65"
-          ],
-          [
-            "Cloudy/Rainy days",
-            "2-3 Cloudy/Rainy days"
-          ]
+          ["LED Power", "high light efficiency chips 5730/3030"],
+          ["Luminous Flux", "6000LM"],
+          ["Solar Panel", "6V 40W mono panel"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2v 40AH"],
+          ["Charging Time", "6-8 hours by bright sunlight"],
+          ["Install Pole diameter", "60-65mm"],
+          ["Waterproof", "IP66"],
+          ["Warranty", "2 Years"],
+          ["Color Temperature", "6000K ~6500K (it can be customized)"],
+          ["Working Temperature (charge)", "-25℃ to 65℃"],
+          ["Products Size", "1000*240*155.5mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["LED Lamp", "200 PCS"],
+          ["Motion sensor", "Yes (Microwave Sensor)"],
+          ["Remote Control", "NO"],
+          ["Recommend Installation Height", "4~6m (Suggest install between space 10-20m)"],
+          ["Certificates", "CE, ROHS, IP65"],
+          ["Cloudy/Rainy days", "2-3 Cloudy/Rainy days"]
         ]
       }
     ]
@@ -1290,222 +494,69 @@
         "title": "OT-SL-83007-2 6000LM ",
         "image": "./assets/products/products/Ot-sl-83007-2-face.png",
         "features": [
-          [
-            "LED Power",
-            "High Efficiency Philips LED Chip 3030/120"
-          ],
-          [
-            "Luminous Flux",
-            "6000LM"
-          ],
-          [
-            "Solar Panel",
-            "50w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2V 60AH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Working Mode",
-            "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25°-- +65°"
-          ],
-          [
-            "Products Size",
-            "789*367*63.5MM"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "6-8M"
-          ],
-          [
-            "Lighting Area",
-            "100㎡"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "High Efficiency Philips LED Chip 3030/120"],
+          ["Luminous Flux", "6000LM"],
+          ["Solar Panel", "50w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2V 60AH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Working Mode", "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25°-- +65°"],
+          ["Products Size", "789*367*63.5MM"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "6-8M"],
+          ["Lighting Area", "100㎡"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       },
       {
         "title": "OT-SL-83007-3 12000LM ",
         "image": "./assets/products/products/Ot-sl-83007-3-face.png",
         "features": [
-          [
-            "LED Power",
-            "High Efficiency Philips LED Chip 3030/180"
-          ],
-          [
-            "Luminous Flux",
-            "12000LM"
-          ],
-          [
-            "Solar Panel",
-            "75w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2V 100AH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Working Mode",
-            "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25°-- +65°"
-          ],
-          [
-            "Products Size",
-            "1000*430*83.5MM"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "7-9M"
-          ],
-          [
-            "Lighting Area",
-            "120㎡"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "High Efficiency Philips LED Chip 3030/180"],
+          ["Luminous Flux", "12000LM"],
+          ["Solar Panel", "75w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2V 100AH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Working Mode", "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25°-- +65°"],
+          ["Products Size", "1000*430*83.5MM"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "7-9M"],
+          ["Lighting Area", "120㎡"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       },
       {
         "title": "OT-SL-83007-4 17200LM ",
         "image": "./assets/products/products/Ot-sl-83007-4-face.png",
         "features": [
-          [
-            "LED Power",
-            "High Efficiency Philips LED Chip 3030/240"
-          ],
-          [
-            "Luminous Flux",
-            "17200LM"
-          ],
-          [
-            "Solar Panel",
-            "110w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "3.2V 150AH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "10-12 Hours/Day"
-          ],
-          [
-            "Working Mode",
-            "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"
-          ],
-          [
-            "Warranty",
-            "3 Years"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Working Temperature (charge)",
-            "-25°-- +65°"
-          ],
-          [
-            "Products Size",
-            "1195*505*83.5MM"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "9-13M"
-          ],
-          [
-            "Lighting Area",
-            "120㎡"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "High Efficiency Philips LED Chip 3030/240"],
+          ["Luminous Flux", "17200LM"],
+          ["Solar Panel", "110w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "3.2V 150AH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "10-12 Hours/Day"],
+          ["Working Mode", "Normal model (default): 4H 100% + 2H 25% (somebody) / 80% + 6H 25% + 60% (nobody)"],
+          ["Warranty", "3 Years"],
+          ["Color Temperature", "6500K"],
+          ["Working Temperature (charge)", "-25°-- +65°"],
+          ["Products Size", "1195*505*83.5MM"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "9-13M"],
+          ["Lighting Area", "120㎡"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       }
     ]
@@ -1521,141 +572,45 @@
       {
         "title": "OT-SL-83006-3 7200LM",
         "image": "./assets/products/products/Ot-sl-83006-3-face.png",
-        "images": [
-          "./assets/products/products/OT-SL-83006-3-face.png",
-          "./assets/products/products/OT-SL-83006-3-face-whole.png"
-        ],
+        "images": ["./assets/products/products/OT-SL-83006-3-face.png", "./assets/products/products/OT-SL-83006-3-face-whole.png"],
         "features": [
-          [
-            "LED Power",
-            "60w High Efficiency Philips LED Chip"
-          ],
-          [
-            "Luminous Flux",
-            "7200LM"
-          ],
-          [
-            "Solar Panel",
-            "60w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "Built-in 320WH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "≥30 Hours"
-          ],
-          [
-            "Working Mode",
-            "Steady Lighting"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "1151*406*168mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "3-6m"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "60w High Efficiency Philips LED Chip"],
+          ["Luminous Flux", "7200LM"],
+          ["Solar Panel", "60w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "Built-in 320WH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "≥30 Hours"],
+          ["Working Mode", "Steady Lighting"],
+          ["Color Temperature", "6500K"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "1151*406*168mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "3-6m"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       },
       {
         "title": "OT-SL-83006-4 9600LM",
         "image": "./assets/products/products/Ot-sl-83006-4-face.png",
-        "images": [
-          "./assets/products/products/OT-SL-83006-4-face.png",
-          "./assets/products/products/OT-SL-83006-4-face-whole.png"
-        ],
+        "images": ["./assets/products/products/OT-SL-83006-4-face.png", "./assets/products/products/OT-SL-83006-4-face-whole.png"],
         "features": [
-          [
-            "LED Power",
-            "80w High Efficiency Philips LED Chip"
-          ],
-          [
-            "Luminous Flux",
-            "9600LM"
-          ],
-          [
-            "Solar Panel",
-            "80w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "Built-in 400WH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "≥30 Hours"
-          ],
-          [
-            "Working Mode",
-            "Steady Lighting"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "1451*406*168mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "5-7m"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "80w High Efficiency Philips LED Chip"],
+          ["Luminous Flux", "9600LM"],
+          ["Solar Panel", "80w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "Built-in 400WH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "≥30 Hours"],
+          ["Working Mode", "Steady Lighting"],
+          ["Color Temperature", "6500K"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "1451*406*168mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "5-7m"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       }
     ]
@@ -1671,133 +626,45 @@
       {
         "title": "OT-SL-83005-2 (9600LM)",
         "image": "./assets/products/products/ot-sl-83005-2-face.png",
+        "images": ["./assets/products/products/ot-sl-83005-2-face.png", "./assets/products/products/ot-sl-83005-2-whole.png"],
         "features": [
-          [
-            "LED Power",
-            "60w High Efficiency Philips LED Chip"
-          ],
-          [
-            "Luminous Flux",
-            "9600LM"
-          ],
-          [
-            "Solar Panel",
-            "105w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "Built-in 532WH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "≥30 Hours"
-          ],
-          [
-            "Working Mode",
-            "Steady Lighting"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "1315*535*170mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "5-7m"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "60w High Efficiency Philips LED Chip"],
+          ["Luminous Flux", "9600LM"],
+          ["Solar Panel", "105w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "Built-in 532WH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "≥30 Hours"],
+          ["Working Mode", "Steady Lighting"],
+          ["Color Temperature", "6500K"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "1315*535*170mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "5-7m"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       },
       {
         "title": "OT-SL-83005-3 (16000LM)",
         "image": "./assets/products/products/ot-sl-83005-3-face.png",
+        "images": ["./assets/products/products/ot-sl-83005-3-face.png", "./assets/products/products/ot-sl-83005-3-whole.png"],
         "features": [
-          [
-            "LED Power",
-            "100w High Efficiency Philips LED Chip"
-          ],
-          [
-            "Luminous Flux",
-            "16000LM"
-          ],
-          [
-            "Solar Panel",
-            "145w mono"
-          ],
-          [
-            "High Capacity Lithium Iron Phosphate Battery",
-            "Built-in 888WH"
-          ],
-          [
-            "Charging Time",
-            "8 Hours"
-          ],
-          [
-            "Working Time",
-            "≥30 Hours"
-          ],
-          [
-            "Working Mode",
-            "Steady Lighting"
-          ],
-          [
-            "Color Temperature",
-            "6500K"
-          ],
-          [
-            "Warranty",
-            "2 Years"
-          ],
-          [
-            "Products Size",
-            "1585*535*200mm"
-          ],
-          [
-            "Lighting material",
-            "High Class Aluminum"
-          ],
-          [
-            "Ingress Protection",
-            "IP65"
-          ],
-          [
-            "Recommend Installation Height",
-            "6-9m"
-          ],
-          [
-            "Special Function",
-            "MPPT HI-Tech Faster Charging"
-          ],
-          [
-            "Special Function",
-            "Whole Night Lighting 3-4 Raining Backup Days"
-          ]
+          ["LED Power", "100w High Efficiency Philips LED Chip"],
+          ["Luminous Flux", "16000LM"],
+          ["Solar Panel", "145w mono"],
+          ["High Capacity Lithium Iron Phosphate Battery", "Built-in 888WH"],
+          ["Charging Time", "8 Hours"],
+          ["Working Time", "≥30 Hours"],
+          ["Working Mode", "Steady Lighting"],
+          ["Color Temperature", "6500K"],
+          ["Warranty", "2 Years"],
+          ["Products Size", "1585*535*200mm"],
+          ["Lighting material", "High Class Aluminum"],
+          ["Ingress Protection", "IP65"],
+          ["Recommend Installation Height", "6-9m"],
+          ["Special Function", "MPPT HI-Tech Faster Charging"],
+          ["Special Function", "Whole Night Lighting 3-4 Raining Backup Days"]
         ]
       }
     ]
