@@ -572,7 +572,7 @@
       {
         "title": "OT-SL-83006-3 7200LM",
         "image": "./assets/products/products/Ot-sl-83006-3-face.png",
-        "images": ["./assets/products/products/OT-SL-83006-3-face.png", "./assets/products/products/OT-SL-83006-3-face-whole.png"],
+        "images": ["./assets/products/products/Ot-sl-83006-3-face.png", "./assets/products/products/OT-SL-83006-3-face-whole.png"],
         "features": [
           ["LED Power", "60w High Efficiency Philips LED Chip"],
           ["Luminous Flux", "7200LM"],
@@ -594,7 +594,7 @@
       {
         "title": "OT-SL-83006-4 9600LM",
         "image": "./assets/products/products/Ot-sl-83006-4-face.png",
-        "images": ["./assets/products/products/OT-SL-83006-4-face.png", "./assets/products/products/OT-SL-83006-4-face-whole.png"],
+        "images": ["./assets/products/products/Ot-sl-83006-4-face.png", "./assets/products/products/OT-SL-83006-4-face-whole.png"],
         "features": [
           ["LED Power", "80w High Efficiency Philips LED Chip"],
           ["Luminous Flux", "9600LM"],

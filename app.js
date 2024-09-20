@@ -78,7 +78,7 @@ if (process.argv[2]) {
   ];
   //  "one-product.ejs",
   pages.forEach((page) => {
-    ejs.renderFile("./views/" + page, { ...passedInVariable }, function (err, html) {
+    ejs.renderFile("./views/" + page, { ...passedInVariable, cssVersion }, function (err, html) {
       if (err) {
         return err;
       }
