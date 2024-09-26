@@ -163,7 +163,7 @@
                 <img src="<%= category.image %>" alt="" class="w-full showImage" />
               </div>
               <h1 class="text-white text-center hover:underline text-lg px-2">
-                <a href="./<%= category.url %>"><%= category.title %></a>
+                <a href=".<%= category.url %>"><%= category.title %></a>
               </h1>
             </div>
             <%})%>
@@ -233,7 +233,7 @@
             <p class="max-lg:mx-auto">Discover why we are leading in renewable energy</p>
             <%- include("./_partials/modal-popup.ejs") %>
           </div>
-          <div class="col-span-1 lg:col-span-2 grid grid-cols-2 gap-5 gap-y-10">
+          <div class="col-span-1 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-5 gap-y-10">
             <div class="col-span-1 space-y-1 px-5 sm:space-y-3 group">
               <svg class="h-[50px] group-hover:scale-150 transition-transform" viewBox="0 0 60 53" fill="none">
                 <path

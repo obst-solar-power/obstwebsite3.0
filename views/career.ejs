@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OBST Solar | Careers (Join Our Team)</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <%- include("./_partials/css.ejs") %>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <%- include("./_partials/nav.ejs", {active : "./installation.html"}) %>
+
+    <div class="bg-primary">
+      <section class="section">
+        <div class="text-center py-5 space-y-3 text-white mb-5">
+          <h1 class="title">Careers</h1>
+          <p class="text-sm">Do you want to join the OBST Team, check out our available roles below.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="section space-y-10">
+      <h1 class="title">Available Roles</h1>
+      <ol class="space-y-5">
+        <li>
+          <h3 class="text-lg">1. Marketing and Sales Team</h3>
+          <span>
+            <a
+              class="text-primary font-medium"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfGM5Oey2caf6OLbQY4GJi2oBzO-aRQLaPVSIJcKi8YfVjE-w/viewform?usp=sf_link "
+              >Click here </a
+            >to apply
+          </span>
+        </li>
+        <li>
+          <h3 class="text-lg">2. HR Manager</h3>
+          <span>
+            <a
+              class="text-primary font-medium"
+              target="_blank"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfGM5Oey2caf6OLbQY4GJi2oBzO-aRQLaPVSIJcKi8YfVjE-w/viewform?usp=sf_link "
+              >Click here </a
+            >to apply
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- This is the footer element -->
+    <%- include("./_partials/footer.ejs") %>
+    <!-- The end of the footer# -->
+  </body>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 600,
+      easing: "ease-out",
+    });
+  </script>
+</html>

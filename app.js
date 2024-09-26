@@ -74,6 +74,7 @@ if (process.argv[2]) {
     "blogs.ejs",
     "installation.ejs",
     "quotation.ejs",
+    "career.ejs",
     "how-to-become-an-affiliate-marketer-for-obst.ejs",
   ];
   //  "one-product.ejs",
