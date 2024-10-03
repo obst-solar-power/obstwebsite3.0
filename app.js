@@ -76,6 +76,8 @@ if (process.argv[2]) {
     "quotation.ejs",
     "career.ejs",
     "how-to-become-an-affiliate-marketer-for-obst.ejs",
+    "how-to-calculate-the-electricity-your-solar-panels-is-producing.ejs",
+    "difference-between-tubular-batteries-lithium-battery-and-lithium-iron-phosphate-battery.ejs",
   ];
   //  "one-product.ejs",
   pages.forEach((page) => {
