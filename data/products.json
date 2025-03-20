@@ -188,96 +188,6 @@
     "features": [
       [
         "Rated Power",
-        "10.44Kwh"
-      ],
-      [
-        "Cell Type",
-        "LFP"
-      ],
-      [
-        "Cell Quantity",
-        "32"
-      ],
-      [
-        "Rated Voltage",
-        "51.2V"
-      ],
-      [
-        "Voltage Range",
-        "44.8~57.6V"
-      ],
-      [
-        "Charging Current",
-        "50A"
-      ],
-      [
-        "Discharging Current",
-        "100A"
-      ],
-      [
-        "Dimensions",
-        "1100*480*160mm"
-      ],
-      [
-        "Weight",
-        "95kg"
-      ],
-      [
-        "Communication Protocol",
-        "CAN 485"
-      ],
-      [
-        "Protection Level",
-        "IP65"
-      ],
-      [
-        "Working Temperature",
-        "-10 ~ 55C"
-      ],
-      [
-        "Relative humidity",
-        "5% ~ 95%"
-      ],
-      [
-        "Cooling method",
-        "Natural cooling"
-      ],
-      [
-        "Installation model",
-        "Ground/Wall-Mounted"
-      ],
-      [
-        "Design Life",
-        "10 years"
-      ],
-      [
-        "Certificate",
-        "IEC62619 CE RHOS MDS"
-      ],
-      [
-        "Matched Inverter",
-        "SMA/Growatt/Deye, etc"
-      ]
-    ]
-  },
-  {
-    "_id": 3,
-    "slug": "10KWh_Wall_Mount_Energy_storage_system",
-    "homeProducts": true,
-    "type": "wall",
-    "title": "10KWh Wall-mounted Energy Storage System",
-    "price": 5299000,
-    "break": 9,
-    "url": "./assets/products/products/wall+10kw+front.png",
-    "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
-    "images": [
-      "./assets/products/products/wall+10kw+front.png",
-      "./assets/products/products/wall-10KW+side.png",
-      "./assets/products/products/wall-10kw-back.png"
-    ],
-    "features": [
-      [
-        "Rated Power",
         "5.22Kwh"
       ],
       [
@@ -338,7 +248,7 @@
       ],
       [
         "Design Life",
-        "10 years"
+        "15 years"
       ],
       [
         "Certificate",
@@ -351,6 +261,97 @@
       [
         "Load",
         "Air Conditioning, Refrigerator, fan, TV, water, heater etc."
+      ]
+    ]
+  },
+  {
+    "_id": 3,
+    "slug": "5kw+10kwh_wall_mount_energy_storage_system",
+    "homeProducts": true,
+    "type": "wall",
+    "title": "10KWh Wall-mounted Energy Storage System",
+    "price": 5299000,
+    "break": 9,
+    "url": "./assets/products/products/wall+10kw+front.png",
+    "summary": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis non cumque repellendus quibusdam. Ipsum deleniti quam debitis odit sunt, commodi inventore officia aut expedita fugit, esse",
+    "images": [
+      "./assets/products/products/wall+10kw+front.png",
+      "./assets/products/products/wall-10KW+side.png",
+      "./assets/products/products/wall-10kw-back.png"
+    ],
+
+    "features": [
+      [
+        "Rated Power",
+        "10.44Kwh"
+      ],
+      [
+        "Cell Type",
+        "LFP"
+      ],
+      [
+        "Cell Quantity",
+        "32"
+      ],
+      [
+        "Rated Voltage",
+        "51.2V"
+      ],
+      [
+        "Voltage Range",
+        "44.8~57.6V"
+      ],
+      [
+        "Charging Current",
+        "50A"
+      ],
+      [
+        "Discharging Current",
+        "100A"
+      ],
+      [
+        "Dimensions",
+        "1100*480*160mm"
+      ],
+      [
+        "Weight",
+        "95kg"
+      ],
+      [
+        "Communication Protocol",
+        "CAN 485"
+      ],
+      [
+        "Protection Level",
+        "IP65"
+      ],
+      [
+        "Working Temperature",
+        "-10 ~ 55C"
+      ],
+      [
+        "Relative humidity",
+        "5% ~ 95%"
+      ],
+      [
+        "Cooling method",
+        "Natural cooling"
+      ],
+      [
+        "Installation model",
+        "Ground/Wall-Mounted"
+      ],
+      [
+        "Design Life",
+        "15 years"
+      ],
+      [
+        "Certificate",
+        "IEC62619 CE RHOS MDS"
+      ],
+      [
+        "Matched Inverter",
+        "SMA/Growatt/Deye, etc"
       ]
     ]
   },
